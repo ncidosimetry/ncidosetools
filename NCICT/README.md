@@ -1,8 +1,4 @@
-# NCICT 3.0
-
-![NCICT overview](https://github.com/user-attachments/assets/cc703512-17b8-49f8-92a2-9caa71083e3c)
-
----
+<img width="410" height="132" alt="image" src="https://github.com/user-attachments/assets/7ca3c5db-9803-4e1c-9c7a-c21d0113b87b" />
 
 ## Download
 
