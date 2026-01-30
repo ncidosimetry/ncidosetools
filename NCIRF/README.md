@@ -1,8 +1,4 @@
-# NCIRF 3.0
-
-![NCIRF overview](https://github.com/user-attachments/assets/34477a43-8d3a-4338-ac36-72685cbbf7f7)
-
----
+<img width="417" height="126" alt="image" src="https://github.com/user-attachments/assets/b60697e2-9359-4073-a76f-fb9e6ba07e13" />
 
 ## Download
 
