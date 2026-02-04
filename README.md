@@ -88,7 +88,7 @@ under an approved **Software Transfer Agreement (STA)**.
 
 **Dr. Choonsik Lee**  
 choonsik.lee@nih.gov  
-Scientific Director and Lead Architect
+Lead Architect
 
 ---
 
