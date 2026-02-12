@@ -25,6 +25,9 @@ The following resources are available from the download link:
 ---
 
 ## Version History
+### 2026-2-11
+- batch mode updated: input exact height and weight of ICRP reference phantoms to run ICRP phantoms
+
 ### 2025-12-2
 - nCTDIw added:
 -   United Imaging: uCT 820
