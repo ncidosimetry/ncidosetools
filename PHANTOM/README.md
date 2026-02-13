@@ -30,13 +30,15 @@ Unlicensed access or redistribution is not permitted.
 |------------|-----------|-------------|----------|------------|
 | nci  | reference | arm     | voxel  | high |
 | nci  | reference | armless | voxel  | high |
-| nci  | size-dependent | arm | voxel  | low* |
-| nci  | size-dependent | armless | voxel | low* |
+| nci  | size-dependent | arm | voxel  | low<sup>*</sup>|
+| nci  | size-dependent | armless | voxel | low<sup>*</sup>|
 | nci  | reference | armless | dicomrt | high |
 | nci  | pregnant  | armless | dicomrt | high |
 | icrp | reference | armless | dicomrt | high |
 
-### Master Tables
+<sup>*</sup> The high–voxel-resolution NCI size-dependent library will be made available upon request, as its total file size exceeds the capacity of the current repository.
+
+### Master Table
 
 - **#_mastertable_ref&size.xlsx**
   Master data table for the NCI reference & body size–dependent phantom library
