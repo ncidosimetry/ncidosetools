@@ -16,35 +16,41 @@ Unlicensed access or redistribution is not permitted.
 
 The following resources are available from the download link:
 
-- `ncict_batch_input.csv`  
-- `NCICT3.0_XXXXXXXX_mac.dmg`  
-- `NCICT3.0_XXXXXXXX_windows.exe`  
+- `ncictBatchInput.csv`  
+- `NCICTX.XXXXXXXX_mac.dmg`  
+- `NCICTX.XXXXXXXX_windows.exe`  
 - Recommended citation: **NCICT1**  
 - Recommended citation: **NCICT2**
 
 ---
 
 ## Version History
-### 2026-2-11
-- Users can now select ICRP phantoms in batch mode by entering the exact height and weight values shown in the ICRP tab.
-- Batch mode menu replaced with a dedicated button for improved accessibility.
-- GUI design including phantom diagram refined for a cleaner and more intuitive interface.
-- Tab navigation optimized so focus moves in an orderly sequence.
-- Dose results are right-justified for improved readability and alignment.
-- Scan range now starts from 0 cm.
-- Scan start and end inputs are automatically corrected if user-defined values conflict.
-- Mouse drag behavior for scan start and end has been fixed to prevent flipping.
+### **2026-4-15 — Official Release (Version 4.20260415)**
 
-### 2025-12-2
-- nCTDIw added from CTDI survey data for the following scanners:
--   United Imaging: uCT 820
-
-### 2025-10-21
-- nCTDIw added from CTDI survey data for the following scanners:
-- Siemens: X.cite, Definition Edge
-- Siemens: Definition AS+, Definition Flash, Force, Edge Plus
-- GE: Revolution CT
-- United Imaging: uCT 760, uCT 960+
+- Phantom library
+  - Added 9 pediatric phantoms (total: 360 size-dependent phantoms).
+  - Detailed heart substructure models implemented for 360 size-dependent phantoms
+- Dose calculation
+  - Entire dose library recalculated for 360 phantoms with the new heart models and six x-ray spectra.
+  - Adopted ICRP Publication 133 skeletal dose response function.
+  - Water Equivalent Diameter (WED) adopted for SSDE, calculated per slice from DICOM-converted voxel phantoms.
+  - TCM profiles regenerated for all phantoms for 16 cm and 32 cm reference CTDI phantoms
+  - nCTDIw added from CTDI survey for the following scanners:
+    - Siemens: X.cite, Definition Edge, Definition AS+, Definition Flash, Force, Edge Plus
+    - GE: Revolution CT
+    - United Imaging: uCT 760, uCT 820, uCT 960+
+  - Batch calculation routine upgraded:
+    - ICRP reference phantoms (n=12) selectable by exact height and weight
+    - Heart substructure dose included in output files for 360 phantoms
+- User interface
+  - 3D mesh phantoms recolored and high-resolution phantom images regenerated.
+  - Enabled phantom map-based selection (direct click selection).
+  - GUI redesigned for improved visibility and usability.
+  - Batch mode menu replaced with a dedicated button for improved accessibility.
+  - TCM strength can now be entered to text field directly.
+- Backend redesign
+  - Dose, TCM, and phantom image libraries converted from CSV to binary format, resulting in increased calculation speed.
+  - CTDI library redesigned for improved extensibility.
 
 ### 2024-12-16
 - Bug fix: Batch run menu not functioning correctly
