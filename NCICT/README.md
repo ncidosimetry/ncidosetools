@@ -25,6 +25,10 @@ The following resources are available from the download link:
 ---
 
 ## Version History
+
+### 2026-4-24
+- Bug fix: Displayed DLP does not match CTDIvol × Scan Length
+
 ### **2026-4-15 — Official Release (Version 4.20260415)**
 
 - Phantom library
