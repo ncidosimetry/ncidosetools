@@ -29,7 +29,6 @@ The following resources are available from the download link:
 ### 2026-5-2
 - GUI
   - Scan start and end lines are now highlighted in bold when the mouse hovers over them.
-  - Fixed a DLP display mismatch with CTDI<sub>vol</sub> × scan length.
   - Batch calculation
     - Updated GUI Batch calculation to use the same calculation workflow as the API.
     - GUI Batch now reads CSV files using the same parameter names as API JSON input.
