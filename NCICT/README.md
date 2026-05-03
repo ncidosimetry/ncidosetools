@@ -26,6 +26,36 @@ The following resources are available from the download link:
 
 ## Version History
 
+### 2026-5-2
+- GUI
+  - Scan start and end lines are now highlighted in bold when the mouse hovers over them.
+  - Fixed a DLP display mismatch with CTDI<sub>vol</sub> × scan length.
+  - Batch calculation
+    - Updated GUI Batch calculation to use the same calculation workflow as the API.
+    - GUI Batch now reads CSV files using the same parameter names as API JSON input.
+    - API uses JSON format and GUI Batch uses CSV format, but both accept the same calculation parameters.
+    - Removed the required `dose_target` input; NCICT now infers patient, fetus, or mother dose from age format and height input.
+    - Updated Batch CSV parameter order so scan start and end appear after WED.
+    - Added Excel-friendly custom mA input in Batch CSV by reading numeric cells from the `custom_ma` column to the end of the row.
+    - Added batch support for patient, fetus, and mother dose targets.
+    - Added pregnant phantom week input support in batch CSV, e.g., `38wk`.
+    - Added age, height, weight, and WED-based closest phantom matching in batch mode.
+    - Added the same custom mA, scan range, and parameter validation behavior used by the API.
+    - Updated batch export CSV to include API-style input parameters and matched phantom information.
+    - Updated `ncictBatchInput.csv` to the API-style parameter format with patient, WED/custom mA, fetus, mother, and validation examples.
+- API
+  - Added JSON parameter validation with the parameter order: age, sex, height, weight, WED, start, end, kVp, tcm_strength, head_body, and ctdivol.
+  - Removed the required `dose_target` input; patient, fetus, and mother dose are inferred automatically.
+  - Changed pregnant phantom age input to week text format, e.g., `8wk`, `10wk`, `15wk`, `20wk`, `25wk`, `30wk`, `35wk`, and `38wk`.
+  - Changed pediatric/adult patient threshold to use age < 20.
+  - Added closest phantom matching from user-provided age, height, weight, or WED.
+  - Updated API example parameter order so scan start and end appear after WED.
+  - Added custom_ma validation for tcm_strength = -1.
+  - Added scan range validation after landmark conversion.
+  - Updated fetus/mother output key to matched_fetal_age_weeks.
+  - Improved API error responses for invalid input.
+  - Added patient, custom mA, fetus, mother, and validation API examples.
+
 ### 2026-4-24
 - Bug fix: Displayed DLP does not match CTDIvol × Scan Length
 
