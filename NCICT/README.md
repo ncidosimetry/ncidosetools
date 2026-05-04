@@ -28,68 +28,60 @@ The following resources are available from the download link:
 
 ### 2026-5-2
 - GUI
-  - Scan start and end lines are now highlighted in bold when the mouse hovers over them.
+  - Scan start and end lines are now highlighted in bold when hovered.
   - Batch calculation
-    - Updated GUI Batch calculation to use the same calculation workflow as the API.
-    - GUI Batch now reads CSV files using the same parameter names as API JSON input.
-    - API uses JSON format and GUI Batch uses CSV format, but both accept the same calculation parameters.
-    - Removed the required `dose_target` input; NCICT now infers patient, fetus, or mother dose from age format and height input.
-    - Updated Batch CSV parameter order so scan start and end appear after WED.
-    - Added Excel-friendly custom mA input in Batch CSV by reading numeric cells from the `custom_ma` column to the end of the row.
-    - Added batch support for patient, fetus, and mother dose targets.
-    - Added pregnant phantom week input support in batch CSV, e.g., `38wk`.
+    - Updated GUI Batch calculations to use the same calculation workflow as the API.
+    - GUI Batch now reads CSV files using the same parameter names as the API JSON input.
+    - Removed required phantom-group / `dose_target` inputs; NCICT now infers patient, fetus, or mother dose from the age format and whether a height value is provided.
+    - Updated the recommended Batch CSV parameter order so scan start and end appear after WED.
+    - Added Batch CSV support for custom mA profiles by reading numeric cells from the `custom_ma` column to the end of the row when `tcm_strength` is set to `-1`.
+    - Added support for week-based pregnant phantom input in Batch CSV, such as `38wk`.
     - Added age, height, weight, and WED-based closest phantom matching in batch mode.
-    - Added the same custom mA, scan range, and parameter validation behavior used by the API.
-    - Updated batch export CSV to include API-style input parameters and matched phantom information.
-    - Updated `ncictBatchInput.csv` to the API-style parameter format with patient, WED/custom mA, fetus, mother, and validation examples.
 - API
-  - Added JSON parameter validation with the parameter order: age, sex, height, weight, WED, start, end, kVp, tcm_strength, head_body, and ctdivol.
-  - Removed the required `dose_target` input; patient, fetus, and mother dose are inferred automatically.
-  - Changed pregnant phantom age input to week text format, e.g., `8wk`, `10wk`, `15wk`, `20wk`, `25wk`, `30wk`, `35wk`, and `38wk`.
-  - Changed pediatric/adult patient threshold to use age < 20.
-  - Added closest phantom matching from user-provided age, height, weight, or WED.
-  - Updated API example parameter order so scan start and end appear after WED.
-  - Added custom_ma validation for tcm_strength = -1.
+  - Added Water Equivalent Diameter (WED)-based phantom selection.
+  - Added internal handling of missing optional patient parameters, such as height, weight, and WED.
+  - Added slice-specific `custom_ma` input when `tcm_strength` is set to `-1`.
+  - Standardized JSON input keys: `age`, `sex`, `height`, `weight`, `wed`, `start`, `end`, `kvp`, `tcm_strength`, `head_body`, and `ctdivol`.
+  - Removed required phantom-group / `dose_target` inputs; patient, fetus, and mother dose targets are inferred automatically.
+  - Added closest-phantom matching based on user-provided age, height, weight, or WED.
   - Added scan range validation after landmark conversion.
-  - Updated fetus/mother output key to matched_fetal_age_weeks.
   - Improved API error responses for invalid input.
-  - Added patient, custom mA, fetus, mother, and validation API examples.
 
 ### 2026-4-24
-- Bug fix: Displayed DLP does not match CTDIvol × Scan Length
+- Bug fix: Displayed DLP did not match CTDI<sub>vol</sub> × scan length
 
 ### **2026-4-15 — Official Release (Version 4.20260415)**
 
 - Phantom library
   - Added 9 pediatric phantoms (total: 360 size-dependent phantoms).
-  - Detailed heart substructure models implemented for 360 size-dependent phantoms
+  - Detailed heart substructure models implemented for 360 size-dependent phantoms.
 - Dose calculation
   - Entire dose library recalculated for 360 phantoms with the new heart models and six x-ray spectra.
   - Adopted ICRP Publication 133 skeletal dose response function.
   - Water Equivalent Diameter (WED) adopted for SSDE, calculated per slice from DICOM-converted voxel phantoms.
-  - TCM profiles regenerated for all phantoms for 16 cm and 32 cm reference CTDI phantoms
+  - TCM profiles regenerated for all phantoms for 16 cm and 32 cm reference CTDI phantoms.
   - nCTDIw added from CTDI survey for the following scanners:
     - Siemens: X.cite, Definition Edge, Definition AS+, Definition Flash, Force, Edge Plus
     - GE: Revolution CT
     - United Imaging: uCT 760, uCT 820, uCT 960+
   - Batch calculation routine upgraded:
-    - ICRP reference phantoms (n=12) selectable by exact height and weight
-    - Heart substructure dose included in output files for 360 phantoms
+    - ICRP reference phantoms (n=12) made selectable by exact height and weight.
+    - Heart substructure dose included in output files for 360 phantoms.
 - User interface
   - 3D mesh phantoms recolored and high-resolution phantom images regenerated.
   - Enabled phantom map-based selection (direct click selection).
   - GUI redesigned for improved visibility and usability.
   - Batch mode menu replaced with a dedicated button for improved accessibility.
-  - TCM strength can now be entered to text field directly.
+  - TCM strength can now be entered directly in the text field.
 - Backend redesign
   - Dose, TCM, and phantom image libraries converted from CSV to binary format, resulting in increased calculation speed.
   - CTDI library redesigned for improved extensibility.
 
 ### 2024-12-16
-- Bug fix: Batch run menu not functioning correctly
+- Bug fix: Batch run menu did not function correctly
 
 ### **2024-12-15 — Official Release (Version 3.0.20241215)**
-- Links to the user manual and user forum added
+- Links to the user manual and user forum added.
 
 ### 2024-06-26
 - Bug fix: X-ray spectrum index mismatch between 100 and 120 kVp corrected
