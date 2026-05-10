@@ -26,6 +26,91 @@ The following resources are available from the download link:
 
 ## Version History
 
+### 2026-5-10 — Official Release (Version 4.20260510)
+
+**New features**
+- Added NCIRF4 API project for REST-style JSON dose calculations using the unified batch input model
+- Added mouse drag support for moving the field box
+- Added field box resizing in top, frontal, and lateral phantom views by dragging
+  a box edge; the field center remains fixed and the opposite edge changes
+  symmetrically
+- Added phantom selection by clicking the phantom map
+- Added cursor up/down key support for numeric input fields
+- Expanded the size-dependent phantom library to **362 phantoms**
+- Added MC calculation progress bar with percent display
+- Added stop button for dose calculation
+- Added automatic DRF selection
+- Added `Preparing Monte Carlo...` progress-bar status while GEANT4 prepares
+  the transport calculation before percent progress output begins
+
+**User interface improvements**
+- Field box center clicks now move the field box directly, in addition to
+  dragging inside the box
+- Field box edge resizing updates the Field Width and Field Height input values
+  using the current PPA/PSA projection of the beam-normal field size
+- Improved phantom picture resolution
+- Redrew the size-dependent phantom map directly from phantom availability data with blue selectable cells and a highlighted selected cell
+- Added extra top spacing above the phantom map height-axis label for improved readability
+- Updated field box and progress indicator accent colors from orange to blue for visual consistency
+- Right-aligned dose and error values in the main GUI table
+- Automatically adjusted PSA limits based on SID and phantom size
+- Updated PSA range to support **-90 to 90 degrees**
+
+**API**
+- Accepts JSON object input through `/param` using NCIRF4 batch-style keys such as `PhtLib`, `Age`, `kVp`, `HVL`, `SID`, `DAP`, `Hist`, and `Thread`
+- Supports reference, size-dependent, and pregnant phantom libraries through the same API endpoint
+- Returns matched phantom metadata, dose values, and error percentages as JSON
+- Added local REST Client examples in `ncirf4api_test.http`
+
+**Batch Manager**
+- Unified reference, size-dependent, and pregnant phantom batch managers into a single **Batch Manager**
+- Added unified Phantom Library input:
+  - `1` = arm raised reference phantom
+  - `2` = arm lowered reference phantom
+  - `3` = arm rotated reference phantom
+  - `4` = size-dependent phantom
+  - `5` = pregnant phantom
+- Added editable Batch Manager cells with immediate reflection in the main GUI
+- Batch Manager edits now clear stored dose results only when the cell value
+  actually changes; clicking a cell without changing its value preserves results
+- Added detailed column tooltips on Batch Manager header hover
+- Added compact batch column headers for easier scanning
+- Added `f`/`m` sex input support, while keeping `F`/`M` and `1`/`2` compatible during CSV load
+- Automatically snaps reference phantom age input to the nearest supported reference age
+- Automatically derives size phantom group from age and sex
+- Automatically matches size phantom height and weight to the nearest available phantom grid
+- Added pregnant phantom week input support, e.g., `8wk`, `10wk`, `15wk`
+- Ignores height and weight for reference and pregnant phantoms, leaving them blank in batch rows
+- Reflected each completed batch row result in the main GUI
+- Added Batch Manager progress percentage display beside the Run checkbox
+- Batch Manager run status now also shows `Preparing Monte Carlo...` in the
+  main GUI progress bar while the active row is preparing GEANT4 transport
+- Removed the output-save prompt at batch run start
+- Stores completed batch dose and error results internally
+- Shows stored dose and error values in the main GUI when a completed batch row is selected
+- Keeps the previous completed dose and error values visible while the next batch row is running
+- Sending the current main GUI setup to Batch Manager now preserves completed
+  main GUI dose/error results when available, adding the row as `100%`; when no
+  completed result is available, the row is added as input only with `0%`
+- Added Run checkbox support
+- Added Select All / Deselect All for Run checkboxes
+- Added CSV save/load with headers
+- Updated Save Batch CSV output to include input parameters, completion progress, dose columns, and error columns
+- Uses Dose and Error column prefixes in saved Batch CSV output, e.g., `Dose Brain` and `Error Brain`
+- Saves incomplete rows with `0%` progress and blank result fields
+- Restores saved completed dose/error results during Batch CSV load
+- Added unified MCNP input generation for all phantom libraries
+
+**Size phantom selection**
+- Automatically matches entered height and weight to the nearest phantom grid
+- Added cursor up/down control for height and weight phantom bins
+
+**Performance improvements**
+- Optimized backend performance for faster calculation and UI updates
+
+**Bug fixes**
+- Fixed batch dose values being saved as zero by applying DAP correctly during batch tally parsing
+
 ### 2024-12-17
 **Bug fixes**
 - Fixed calculation failure for the first phantom  
