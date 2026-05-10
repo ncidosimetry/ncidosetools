@@ -118,7 +118,7 @@ The following resources are available from the download link:
 - Windows version packaging issues resolved
 - `ncirf_batch_input_sizespecific.csv`: missing thread information corrected
 
-### **2024-12-15 — Official Release (Version 3.0.20241215)**
+### 2024-12-15 — Official Release (Version 3.0.20241215)
 
 **New features**
 - Over **360 pediatric and adult male and female phantoms** with a wide range of body sizes added
@@ -147,7 +147,7 @@ The following resources are available from the download link:
 - Batch configurations with HVL formatted as X.X0 now supported
 - Peak skin dose (PSD) included in batch output
 
-### **2024-01-24 — Official Release (Version 2.0.20240124)**
+### 2024-01-24 — Official Release (Version 2.0.20240124)
 - Peak skin dose calculation implemented via Monte Carlo radiation transport
 - New phantom library with **arms rotated** added to better simulate upper-extremity x-ray examinations
 
@@ -163,7 +163,7 @@ The following resources are available from the download link:
 - MCNP input files can now be generated directly from Batch Manager
 - Minor visualization issues corrected
 
-### **2022-12-14 — Official Release (Version 2.0.20220418)**
+### 2022-12-14 — Official Release (Version 2.0.20220418)
 
 ### 2022-04-18
 - Custom beam angle inputs now correctly reflected in simulations
