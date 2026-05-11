@@ -26,7 +26,7 @@ The following resources are available from the download link:
 
 ## Version History
 
-### 2026-5-2 — Update (Version 4.20260502)
+### 2026-5-2
 - GUI
   - Highlighted scan start and end lines in bold on hover.
   - Updated GUI Batch calculations to use the same calculation workflow as the API.
