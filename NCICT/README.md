@@ -28,149 +28,148 @@ The following resources are available from the download link:
 
 ### 2026-5-2 — Update (Version 4.20260502)
 - GUI
-  - Scan start and end lines are now highlighted in bold when hovered.
-  - Batch calculation
-    - Updated GUI Batch calculations to use the same calculation workflow as the API.
-    - GUI Batch now reads CSV files using the same parameter names as the API JSON input.
-    - Removed required phantom-group / `dose_target` inputs; NCICT now infers patient, fetus, or mother dose from the age format and whether a height value is provided.
-    - Updated the recommended Batch CSV parameter order so scan start and end appear after WED.
-    - Added Batch CSV support for custom mA profiles by reading numeric cells from the `custom_ma` column to the end of the row when `tcm_strength` is set to `-1`.
-    - Added support for week-based pregnant phantom input in Batch CSV, such as `38wk`.
-    - Added age, height, weight, and WED-based closest phantom matching in batch mode.
+  - Highlighted scan start and end lines in bold on hover.
+  - Updated GUI Batch calculations to use the same calculation workflow as the API.
+  - Updated GUI Batch CSV loading to use the same parameter names as the API JSON input.
+  - Removed required phantom-group and `dose_target` inputs; NCICT now infers patient, fetus, or mother dose from the age format and whether height is provided.
+  - Updated the recommended Batch CSV parameter order so scan start and end appear after WED.
+  - Added Batch CSV support for custom mA profiles by reading numeric cells from the `custom_ma` column through the end of the row when `tcm_strength` is `-1`.
+  - Added support for week-based pregnant phantom input in Batch CSV, such as `38wk`.
+  - Added closest-phantom matching in batch mode using age, height, weight, and WED.
 - API
-  - Added Water Equivalent Diameter (WED)-based phantom selection.
-  - Added internal handling of missing optional patient parameters, such as height, weight, and WED.
+  - Added water-equivalent diameter (WED)-based phantom selection.
+  - Added internal handling for missing optional patient parameters, including height, weight, and WED.
   - Added slice-specific `custom_ma` input when `tcm_strength` is set to `-1`.
   - Standardized JSON input keys: `age`, `sex`, `height`, `weight`, `wed`, `start`, `end`, `kvp`, `tcm_strength`, `head_body`, and `ctdivol`.
-  - Removed required phantom-group / `dose_target` inputs; patient, fetus, and mother dose targets are inferred automatically.
-  - Added closest-phantom matching based on user-provided age, height, weight, or WED.
+  - Removed required phantom-group and `dose_target` inputs; patient, fetus, and mother dose targets are inferred automatically.
+  - Added closest-phantom matching based on user-provided age, height, weight, and WED.
   - Added scan range validation after landmark conversion.
   - Improved API error responses for invalid input.
 
 ### 2026-4-24
-- Bug fix: Displayed DLP did not match CTDI<sub>vol</sub> × scan length
+- Corrected displayed DLP values that did not match CTDI<sub>vol</sub> multiplied by scan length.
 
 ### 2026-4-15 — Official Release (Version 4.20260415)
 
 - Phantom library
-  - Added 9 pediatric phantoms (total: 360 size-dependent phantoms).
-  - Detailed heart substructure models implemented for 360 size-dependent phantoms.
+  - Added 9 pediatric phantoms, bringing the size-dependent phantom library to 360 phantoms.
+  - Implemented detailed cardiac substructure models for all 360 size-dependent phantoms.
 - Dose calculation
-  - Entire dose library recalculated for 360 phantoms with the new heart models and six x-ray spectra.
+  - Recalculated the full dose library for 360 phantoms using the new cardiac models and six x-ray spectra.
   - Adopted ICRP Publication 133 skeletal dose response function.
-  - Water Equivalent Diameter (WED) adopted for SSDE, calculated per slice from DICOM-converted voxel phantoms.
-  - TCM profiles regenerated for all phantoms for 16 cm and 32 cm reference CTDI phantoms.
-  - nCTDIw added from CTDI survey for the following scanners:
+  - Adopted water-equivalent diameter (WED) for SSDE, calculated per slice from DICOM-converted voxel phantoms.
+  - Regenerated TCM profiles for all phantoms using 16 cm and 32 cm reference CTDI phantoms.
+  - Added nCTDIw values from CTDI survey data for the following scanners:
     - Siemens: X.cite, Definition Edge, Definition AS+, Definition Flash, Force, Edge Plus
     - GE: Revolution CT
     - United Imaging: uCT 760, uCT 820, uCT 960+
-  - Batch calculation routine upgraded:
-    - ICRP reference phantoms (n=12) made selectable by exact height and weight.
-    - Heart substructure dose included in output files for 360 phantoms.
+  - Upgraded the batch calculation routine:
+    - Made the 12 ICRP reference phantoms selectable by exact height and weight.
+    - Added cardiac substructure dose output for all 360 phantoms.
 - User interface
-  - 3D mesh phantoms recolored and high-resolution phantom images regenerated.
+  - Recolored 3D mesh phantoms and regenerated high-resolution phantom images.
   - Enabled phantom map-based selection (direct click selection).
-  - GUI redesigned for improved visibility and usability.
-  - Batch mode menu replaced with a dedicated button for improved accessibility.
-  - TCM strength can now be entered directly in the text field.
+  - Redesigned the GUI for improved visibility and usability.
+  - Replaced the Batch Mode menu with a dedicated button for improved accessibility.
+  - Allowed TCM strength to be entered directly in the text field.
 - Backend redesign
-  - Dose, TCM, and phantom image libraries converted from CSV to binary format, resulting in increased calculation speed.
-  - CTDI library redesigned for improved extensibility.
+  - Converted dose, TCM, and phantom image libraries from CSV to binary format for faster calculations.
+  - Redesigned the CTDI library for improved extensibility.
 
 ### 2024-12-16
-- Bug fix: Batch run menu did not function correctly
+- Fixed an issue where the Batch Run menu did not function correctly.
 
 ### 2024-12-15 — Official Release (Version 3.0.20241215)
-- Links to the user manual and user forum added.
+- Added links to the user manual and user forum.
 
 ### 2024-06-26
-- Bug fix: X-ray spectrum index mismatch between 100 and 120 kVp corrected
+- Corrected an x-ray spectrum index mismatch between 100 and 120 kVp.
 
 ### 2024-02-29
-- Bug fix: Tube current modulation (TCM) profile for body phantoms not properly selected
+- Corrected TCM profile selection for body phantoms.
 
 ### 2024-01-25
-- Bug fix: Effective diameter and SSDE not updated when scan range changed
+- Corrected effective diameter and SSDE updates when the scan range changes.
 
 ### 2024-01-24 — Official Release (Version 3.0.20240124)
-- Head CTDI phantom–based tube current modulation profiles added to more realistically simulate TCM for pediatric patients
-- Muscle layers in frontal and rear phantom views removed to improve visualization of internal anatomy
+- Added head CTDI phantom-based TCM profiles to better simulate pediatric CT examinations.
+- Removed muscle layers from frontal and rear phantom views to improve visualization of internal anatomy.
 
 ### 2023-04-28
-- Frontal and rear views of ICRP phantoms revised
+- Revised frontal and rear views of ICRP phantoms.
 
 ### 2022-12-14 — Official Release (Version 3.0.20221123)
 
 ### 2022-11-23
-- NCICT 2.0 published:  
+- Published NCICT 2.0:  
   Lee et al., *“CT organ dose calculator size adaptive for pediatric and adult patients,”*  
-  **Biomedical Physics & Engineering Express**, 8:065020 (2022)
+  **Biomedical Physics & Engineering Express**, 8:065020 (2022).
 
 ### 2021-11-23
-- Bug fix: Program no longer stops when blank lines remain in batch input files (often introduced during CSV editing in Excel)
+- Fixed a crash caused by blank lines in batch input files, often introduced during CSV editing in Excel.
 
 ### 2021-11-20
-- Tube current profile per image slice displayed alongside phantom visualization
-- “Average CTDI<sub>vol</sub>” displayed when TCM strength > 0
-- “Custom CTDI<sub>vol</sub>” displayed when CTDI<sub>vol</sub> is manually entered
-- Multiple bugs related to TCM in the batch module fixed
+- Displayed the tube current profile per image slice alongside phantom visualization.
+- Displayed “Average CTDI<sub>vol</sub>” when TCM strength is greater than 0.
+- Displayed “Custom CTDI<sub>vol</sub>” when CTDI<sub>vol</sub> is entered manually.
+- Fixed multiple TCM-related issues in the batch module.
 
 ### 2021-10-27
-- Height and weight fields made non-editable when body size–dependent phantoms are selected; body size adjustable only via arrow controls
-- Batch input enabled for pregnant women (phantom group 5) and fetal phantoms (phantom group 6)
-- User Manual and User Forum menu items added under the **Help** menu
+- Made height and weight fields read-only for body size-dependent phantoms; body size is adjusted using arrow controls.
+- Enabled batch input for pregnant women phantoms (phantom group 5) and fetal phantoms (phantom group 6).
+- Added User Manual and User Forum menu items under the **Help** menu.
 
 ### 2021-10-21
-- Tube current (mA) derived from custom CTDI<sub>vol</sub> values; TCM enabled for derived mA
+- Derived tube current (mA) from custom CTDI<sub>vol</sub> values and enabled TCM for the derived mA profile.
 
 ### 2021-09-15
-- Bug fix: Program no longer stops when batch input file is missing
-- mA and rotation time separated from mAs to allow proper TCM adjustment
-- mA limit added to prevent unrealistically high mA values for obese patients in TCM mode
-- TCM disabled when a custom CTDI<sub>vol</sub> is entered
+- Fixed an issue where the program stopped when the batch input file was missing.
+- Separated mA and rotation time from mAs to support proper TCM adjustment.
+- Added an mA limit to prevent unrealistically high mA values for obese patients in TCM mode.
+- Disabled TCM when custom CTDI<sub>vol</sub> is entered.
 
 ### 2021-05-20
-- Automatic selection of the best-matching phantom based on patient height and weight added to batch mode
+- Added automatic selection of the best-matching phantom based on patient height and weight in batch mode.
 
 ### 2021-05-13 — Official Release (Version 3.0.20210513)
-- Batch calculation functionality added (see `ncict_batch_input.csv`)
-- Tube current modulation implemented using generic modulation profiles
+- Added batch calculation functionality (see `ncict_batch_input.csv`).
+- Implemented tube current modulation using generic modulation profiles.
 
 ### 2021-03-07
-- Effective diameter calculation added for pregnant women phantoms
+- Added effective diameter calculation for pregnant women phantoms.
 
 ### 2020-03-12 — Official Release (Version 3.0.20200312)
-- Scan range dragging speed improved for Windows version
+- Improved scan range dragging speed in the Windows version.
 
 ### 2019-12-05
-- Maternal organ dose calculations added (NCICT 3.0.20191205)
-- Presented at RSNA 2019
+- Added maternal organ dose calculations (NCICT 3.0.20191205).
+- Presented NCICT at RSNA 2019.
 
 ### 2019-03-01
-- Eight pregnant phantoms with fetal models added
-- Fetal organ dose calculations enabled
-- NCICT 3.0 build 20190301 released
+- Added eight pregnant phantoms with fetal models.
+- Enabled fetal organ dose calculations.
+- Released NCICT 3.0 build 20190301.
 
 ### 2018-11-18 — Official Release (Version 2.0.20181118)
-- 98 additional adult phantoms added, completing the full set of 351 phantoms
-- NCICTX presented at AAPM 2018; renamed to NCICT
+- Added 98 adult phantoms, completing the full set of 351 phantoms.
+- Presented NCICTX at AAPM 2018 and renamed the software to NCICT.
 
 ### 2016-04-01
-- 72 adult and 181 pediatric phantoms added (NCICTX 20160401)
-- Presented at AAPM 2016
+- Added 72 adult and 181 pediatric phantoms (NCICTX 20160401).
+- Presented NCICTX at AAPM 2016.
 
 ### 2015-12-01
-- NCICT 1.0 published in *Journal of Radiological Protection*  
-  Lee et al., JRP (2015)
-- Presented at RSNA 2015
+- Published NCICT 1.0 in *Journal of Radiological Protection*:  
+  Lee et al., JRP (2015).
+- Presented NCICT at RSNA 2015.
 
 ### 2014-12-01 — Official Release (Version 1.0.20141201)
-- ICRP pediatric and adult phantoms replaced original NCI phantoms
+- Replaced the original NCI phantoms with ICRP pediatric and adult phantoms.
 
 ### 2012-04-18
-- MATLAB version translated to Visual Basic 6.0 (NCICT 1.0.20120418)
-- Batch routine implemented for automated calculations
-- Public beta testing initiated under a non-official data agreement
+- Translated the MATLAB version to Visual Basic 6.0 (NCICT 1.0.20120418).
+- Implemented the batch routine for automated calculations.
+- Initiated public beta testing under a non-official data agreement.
 
 ### 2011-05-17
-- Initial release of NCICT 1.0 based on NCI phantoms and MATLAB framework
+- Released the initial NCICT 1.0 version based on NCI phantoms and the MATLAB framework.
