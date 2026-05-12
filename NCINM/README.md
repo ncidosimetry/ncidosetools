@@ -27,7 +27,7 @@ The following resources are available from the download link:
 
 ## Version History
 
-### 2026-5-10 — Development Update (Version NCINM3.20260510)
+### 2026-5-10
 - Expanded the radionuclide S-value library to **1070 radionuclides** based on
   photon and electron emissions parsed from the **ICRP Publication 107**
   radiation spectrum file.
@@ -48,7 +48,7 @@ The following resources are available from the download link:
 - Reorganized runtime resources so compact CSV data remain embedded with the
   project while large binary libraries are copied as application resources.
 
-### 2026-5-1 — Development Update (Version NCINM3.20260501)
+### 2026-5-1
 - Reorganized the NCINM3 interface with separate NCI and ICRP phantom tabs, each
   with its own sex and age controls to support future phantom-library expansion.
 - Updated the phantom display to load selected phantom images from the binary
