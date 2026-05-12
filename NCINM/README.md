@@ -16,18 +16,37 @@ Unlicensed access or redistribution is not permitted.
 
 The following resources are available from the download link:
 
-- `NCINM3.20260501_XXXXXXXX_mac.dmg`
-- `NCINM3.20260501_XXXXXXXX_windows.exe`
-- `NCINM3.20260501` user manual
-- `NCINM3.20260501 API` user manual
-- `NCINM2.0_XXXXXXXX_mac.dmg`  
-- `NCINM2.0_XXXXXXXX_windows.exe`  
+- `NCINM3.20260510_XXXXXXXX_mac.dmg`
+- `NCINM3.20260510_XXXXXXXX_windows.exe`
+- `NCINM3.20260510` user manual
+- `NCINM3.20260510 API` user manual
 - Recommended citation: **NCINM1**  
 - Recommended citation: **NCINM2**
 
 ---
 
 ## Version History
+
+### 2026-5-10 — Development Update (Version NCINM3.20260510)
+- Expanded the radionuclide S-value library to **1070 radionuclides** based on
+  photon and electron emissions parsed from the **ICRP Publication 107**
+  radiation spectrum file.
+- Added a fetus phantom library with gestational ages of **8, 10, 15, 20, 25,
+  30, 35, and 38 weeks**.
+- Added mother-to-fetus SAF-based S values for maternal source regions and
+  fetal target organs.
+- Added fetal target-organ masses and maternal source-region volumes, including
+  placenta and amniotic fluid source regions.
+- Updated `LibSValues` to include NCI, ICRP, and mother-to-fetus/fetus S-value
+  data.
+- Updated `LibPhantomViews` with fetus phantom views for the new gestational
+  ages.
+- Kept the Radiopharmaceutical tab blank for fetus phantom calculations because
+  pregnancy-specific radiopharmaceutical biokinetic models are not currently
+  defined. Fetus calculations should use the Radionuclide tab with user-entered
+  maternal source-region data.
+- Reorganized runtime resources so compact CSV data remain embedded with the
+  project while large binary libraries are copied as application resources.
 
 ### 2026-5-1 — Development Update (Version NCINM3.20260501)
 - Reorganized the NCINM3 interface with separate NCI and ICRP phantom tabs, each
