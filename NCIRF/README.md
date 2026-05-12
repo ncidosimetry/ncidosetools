@@ -16,7 +16,7 @@ Unlicensed access or redistribution is not permitted.
 
 The following resources are available from the download link:
 
-- `ncirfBatchInput.csv`  
+- `ncirfBatch.csv`  
 - `NCIRFX.XXXXXXXX_mac.dmg`  
 - `NCIRFX.XXXXXXXX_windows.exe`  
 - Recommended citation: **NCIRF2**
