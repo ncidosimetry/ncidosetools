@@ -1,40 +1,24 @@
 # NCI Dose Tools Repository
-*Technical documentation, user support, and API resources for NCI-developed, reference-grade radiation dose tools*
-
----
-
-## Overview
 
 The NCI Dose Tools repository provides documentation, user support, and API resources for reference-grade radiation dose estimation tools and phantom libraries developed at the National Cancer Institute (NCI).
 
 ---
 
-## Intended Audience
-
-**This repository is intended for:**
-- Commercial dose management and medical imaging software vendors  
-- Academic or hospital-based dose platforms  
-- Population-based, comparative, and regulatory-facing dose studies  
-
-**This repository is *not* intended for:**
-- Direct clinical decision support  
-- Patient-specific or site-customized modeling  
-
----
-
 ## Software Access
 
-### 🔒 Licensed Access Only
+### 🔒 Authorized Access Required
 
 [**DOWNLOAD SOFTWARE**](https://drive.google.com/drive/folders/1B2cI9eewJzRn5DJMaOGJ1RloNv0blxSF?usp=share_link)
 
-Access to NCI dose tools is restricted to users with:
-- An approved [**Software Transfer Agreement (STA)**](https://dceg.cancer.gov/tools/radiation-dosimetry-tools/ncidose-software-transfer-agreement.pdf)  
-  *(non-commercial research use)*, or  
-- A completed **commercial licensing agreement**  
-  *(vendor and product integration use)*  
+Access to the NCI Dose Tools is provided to authorized users under one of the following agreements:
 
-Unlicensed access, redistribution, or derivative use is not permitted.
+- An approved [**Software Transfer Agreement (STA)**](https://dceg.cancer.gov/tools/radiation-dosimetry-tools/ncidose-software-transfer-agreement.pdf)  
+  *(free of charge for non-commercial research use)*, or
+
+- A completed **commercial licensing agreement**  
+  *(for vendor or product integration use)*
+
+Unapproved access, redistribution, or derivative use is not permitted.
 
 ---
 
