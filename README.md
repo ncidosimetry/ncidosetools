@@ -1,6 +1,8 @@
 # NCI Dose Tools Repository
 
-The NCI Dose Tools repository provides documentation, user support, and API resources for reference-grade radiation dose estimation tools and phantom libraries developed at the National Cancer Institute (NCI).
+NCI Dose Tools are a suite of radiation dose estimation software tools developed at the National Cancer Institute (NCI) for CT, nuclear medicine, and radiography/fluoroscopy procedures. They support standardized organ dose assessment using computational phantoms and precomputed dose libraries for research use and licensed vendor integration.
+
+This repository is maintained by the NCI Dose Team and provides documentation, user support, release information, and API resources for NCICT, NCINM, and NCIRF.
 
 ---
 
