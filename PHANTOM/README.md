@@ -96,7 +96,7 @@ path, source, scoring, compiler, or code-version adjustments before use.
 
 ## Version History
 
-### **2026-05-31
+### 2026-05-31
 - Added compressed NIfTI (`.nii.gz`) versions of the NCI reference-size, size-dependent, and pregnant phantom libraries
 - Released the following NIfTI datasets through the download folder:
   - NCI reference-size phantoms with arms at high resolution
