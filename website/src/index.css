@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NCI Dose Tools Design System
+   Primary Palette: Deep Navy, Slate, and Quantum Blue
+   Aesthetic: High-Precision Scientific Minimalism
+*/
+
+@layer base {
+  :root {
+    /* Core Background Colors - Light theme */
+    --background: 210 40% 98%; /* Soft off-white */
+    --foreground: 222 47% 11%; /* Dark navy text */
+
+    /* Surface Colors */
+    --card: 0 0% 100%; /* White cards */
+    --card-foreground: 222 47% 11%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+
+    /* Accent Colors */
+    --primary: 199 89% 48%; /* #0EA5E9 Sky Blue - slightly deeper for light bg */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 239 84% 55%; /* #6366F1 Indigo */
+    --secondary-foreground: 0 0% 100%;
+
+    /* Border & Muted */
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 210 40% 96%;
+    --accent-foreground: 222 47% 11%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Grid Lines */
+    --border: 214 32% 91%; /* Light gray borders */
+    --input: 214 32% 91%;
+    --ring: 199 89% 48%;
+
+    --radius: 0.5rem;
+
+    /* Custom NCI Tokens */
+    --nci-glow: 199 89% 48%;
+    --nci-glow-secondary: 239 84% 55%;
+    --nci-surface-elevated: 0 0% 100%;
+    --nci-grid-line: 214 32% 91%;
+
+    /* Sidebar (keeping for compatibility) */
+    --sidebar-background: 210 40% 98%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 199 89% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 40% 96%;
+    --sidebar-accent-foreground: 222 47% 11%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 199 89% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', sans-serif;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  img,
+  svg,
+  canvas {
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+  }
+
+  /* Typography Scale */
+  h1 {
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.3;
+  }
+
+  p, body {
+    letter-spacing: 0.01em;
+  }
+
+  /* Monospace for data/code */
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  /* Grid Line Borders */
+  .grid-line {
+    @apply border-border;
+  }
+
+  .grid-line-x {
+    @apply border-t border-border;
+  }
+
+  .grid-line-y {
+    @apply border-l border-border;
+  }
+
+  /* Glassmorphism Card */
+  .glass-card {
+    @apply bg-card/80 backdrop-blur-sm border border-border;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .glass-card:hover {
+    border-color: hsl(var(--primary));
+    box-shadow: 
+      inset 0 1px 0 0 hsl(var(--primary) / 0.15),
+      0 0 30px -10px hsl(var(--primary) / 0.3);
+  }
+
+  /* Precision Button */
+  .btn-precision {
+    @apply relative px-5 py-2 bg-primary text-primary-foreground font-medium;
+    @apply border border-primary rounded-none;
+    @apply transition-all duration-300;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-precision:hover {
+    @apply bg-primary/90;
+    box-shadow: 0 0 30px -5px hsl(var(--primary) / 0.5);
+  }
+
+  .btn-precision-outline {
+    @apply relative px-5 py-2 bg-transparent text-foreground font-medium;
+    @apply border border-border rounded-none;
+    @apply transition-all duration-300;
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .btn-precision-outline:hover {
+    @apply border-primary text-primary;
+  }
+
+  /* Data Display */
+  .data-display {
+    @apply font-mono text-primary;
+    text-shadow: 0 0 20px hsl(var(--primary) / 0.5);
+  }
+
+  /* Cursor Crosshair */
+  .cursor-crosshair-custom {
+    cursor: crosshair;
+  }
+
+  /* Inner Glow Effect */
+  .inner-glow {
+    position: relative;
+  }
+
+  .inner-glow::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      ellipse at top left,
+      hsl(var(--primary) / 0.1) 0%,
+      transparent 50%
+    );
+    opacity: 0;
+    transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    pointer-events: none;
+  }
+
+  .inner-glow:hover::before {
+    opacity: 1;
+  }
+
+  /* Animated Border Drawing */
+  .border-animate {
+    position: relative;
+  }
+
+  .border-animate::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background: hsl(var(--primary));
+    transition: width 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .border-animate:hover::after,
+  .border-animate-active::after {
+    width: 100%;
+  }
+
+  /* Noise Texture Overlay */
+  .noise-texture {
+    position: relative;
+  }
+
+  .noise-texture::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+}
+
+@layer utilities {
+  /* Expo Out Easing */
+  .ease-expo {
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  /* Text Glow */
+  .text-glow {
+    text-shadow: 0 0 30px hsl(var(--primary) / 0.5);
+  }
+
+  .text-glow-strong {
+    text-shadow: 0 0 40px hsl(var(--primary) / 0.7);
+  }
+
+  /* Gradient Text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(
+      135deg,
+      hsl(var(--primary)) 0%,
+      hsl(var(--secondary)) 100%
+    );
+  }
+
+  /* Blue Radial Gradient (for cursor follow) */
+  .radial-glow {
+    background: radial-gradient(
+      600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+      hsl(var(--primary) / 0.08),
+      transparent 40%
+    );
+  }
+}

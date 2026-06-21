@@ -6,6 +6,16 @@ This repository is maintained by the NCI Dose Team and provides documentation, u
 
 ---
 
+## Website
+
+The public website source is maintained in [`website/`](website). Changes pushed
+to `main` under `website/` are built by GitHub Actions and deployed to GitHub
+Pages:
+
+https://ncidosimetry.github.io/ncidosetools/
+
+---
+
 ## Software Access
 
 ### 🔒 Authorized Access Required

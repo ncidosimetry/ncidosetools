@@ -1,0 +1,4222 @@
+{
+  "generatedAt": "2026-06-20T21:23:48.811Z",
+  "source": "NCBI E-utilities PubMed and PubMed Central searches",
+  "note": "Searches combine tool-specific identifiers with modality terms to reduce unrelated full-text matches.",
+  "tools": [
+    {
+      "id": "ncict",
+      "tool": "NCICT",
+      "modality": "CT dosimetry",
+      "summary": "CT dosimetry publications document NCICT dose estimation, benchmarking, and cohort-scale imaging workflows.",
+      "queries": {
+        "pubmedTitleAbstract": "(\"NCICT\"[Title/Abstract] OR \"National Cancer Institute dosimetry system for Computed Tomography\"[Title/Abstract] OR \"National Cancer Institute dosimetry system for CT\"[Title/Abstract]) AND (\"computed tomography\"[Title/Abstract] OR \"CT dosimetry\"[Title/Abstract] OR \"CT scan\"[Title/Abstract] OR \"CT scans\"[Title/Abstract] OR \"CT imaging\"[Title/Abstract] OR \"CT examination\"[Title/Abstract] OR \"CT examinations\"[Title/Abstract] OR \"PET/CT\"[Title/Abstract])",
+        "pmcFullText": "(\"NCICT\"[body] OR \"National Cancer Institute dosimetry system for Computed Tomography\"[body] OR \"National Cancer Institute dosimetry system for CT\"[body]) AND (\"computed tomography\"[body] OR \"CT dosimetry\"[body] OR \"CT scan\"[body] OR \"CT scans\"[body] OR \"CT imaging\"[body] OR \"CT examination\"[body] OR \"CT examinations\"[body] OR \"PET/CT\"[body])"
+      },
+      "queryUrls": {
+        "pubmedTitleAbstract": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%22NCICT%22%5BTitle%2FAbstract%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+Computed+Tomography%22%5BTitle%2FAbstract%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+CT%22%5BTitle%2FAbstract%5D%29+AND+%28%22computed+tomography%22%5BTitle%2FAbstract%5D+OR+%22CT+dosimetry%22%5BTitle%2FAbstract%5D+OR+%22CT+scan%22%5BTitle%2FAbstract%5D+OR+%22CT+scans%22%5BTitle%2FAbstract%5D+OR+%22CT+imaging%22%5BTitle%2FAbstract%5D+OR+%22CT+examination%22%5BTitle%2FAbstract%5D+OR+%22CT+examinations%22%5BTitle%2FAbstract%5D+OR+%22PET%2FCT%22%5BTitle%2FAbstract%5D%29",
+        "pmcFullText": "https://pmc.ncbi.nlm.nih.gov/search/?term=%28%22NCICT%22%5Bbody%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+Computed+Tomography%22%5Bbody%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+CT%22%5Bbody%5D%29+AND+%28%22computed+tomography%22%5Bbody%5D+OR+%22CT+dosimetry%22%5Bbody%5D+OR+%22CT+scan%22%5Bbody%5D+OR+%22CT+scans%22%5Bbody%5D+OR+%22CT+imaging%22%5Bbody%5D+OR+%22CT+examination%22%5Bbody%5D+OR+%22CT+examinations%22%5Bbody%5D+OR+%22PET%2FCT%22%5Bbody%5D%29"
+      },
+      "counts": {
+        "pubmedTitleAbstract": 42,
+        "pmcFullTextRecords": 68,
+        "pmcMappedPmids": 66,
+        "pmcWithoutPmid": 2,
+        "combinedUniquePmids": 90,
+        "displayedArticles": 90
+      },
+      "years": [
+        {
+          "year": "2026",
+          "count": 11,
+          "articles": [
+            {
+              "pmid": "42188702",
+              "pmcid": "PMC13210898",
+              "title": "AI-Driven Prediction of Chest CT Radiation Doses: Establishing BMI-Based Diagnostic Reference Levels and Patient-Factor Correlations for Machine-Learning Models",
+              "journal": "Tomography (Ann Arbor, Mich.)",
+              "pubdate": "2026 Apr 28",
+              "year": "2026",
+              "authors": [
+                "Hamd ZY",
+                "Abuzaid M",
+                "Alharbi M",
+                "Tamam N",
+                "Alorainy AI",
+                "Alrujaee L"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.3390/tomography12050061",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42188702/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13210898/"
+            },
+            {
+              "pmid": "41706156",
+              "pmcid": "PMC13035884",
+              "title": "Contextual dimensions of pediatric tuberculosis imaging: radiation exposure, access, and system capacity in high- and low-resource settings",
+              "journal": "Pediatric radiology",
+              "pubdate": "2026 Apr",
+              "year": "2026",
+              "authors": [
+                "Munyangaju I",
+                "Jahnen A",
+                "Esmail R",
+                "José B",
+                "Adrigwe J",
+                "Mutemba C"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s00247-026-06535-z",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41706156/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13035884/"
+            },
+            {
+              "pmid": "41988721",
+              "pmcid": null,
+              "title": "Determinants and expected differences in the calculation of CT effective dose conversion factors for various phantom sizes and scan parameters",
+              "journal": "Medical physics",
+              "pubdate": "2026 Apr",
+              "year": "2026",
+              "authors": [
+                "Chu R",
+                "Mihailovic J",
+                "Lee C",
+                "Yu L",
+                "Zhang D",
+                "Yang K"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1002/mp.70432",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41988721/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41570636",
+              "pmcid": null,
+              "title": "Effective dose and risk assessment in 18F-FDG PET/CT examinations of lymphoma patients using updated dose coefficients",
+              "journal": "Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)",
+              "pubdate": "2026 Feb",
+              "year": "2026",
+              "authors": [
+                "Jafarian-Dehkordi F",
+                "Salimi Y",
+                "Jafari E",
+                "Assadi M",
+                "Hoeschen C"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.ejmp.2025.105712",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41570636/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41207961",
+              "pmcid": null,
+              "title": "Feasibility of synthetic CT images for robotic pedicle screw planning and navigation",
+              "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+              "pubdate": "2026 Mar",
+              "year": "2026",
+              "authors": [
+                "Kashtiara A",
+                "Beldé S",
+                "Thijs D",
+                "De Bondt T",
+                "Van Goethem J",
+                "Van de Kelft E"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s00586-025-09568-4",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41207961/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "42233300",
+              "pmcid": null,
+              "title": "Investigation of the effect of patient body mass index on radiation doses in computed tomography imaging",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2026 Jun 3",
+              "year": "2026",
+              "authors": [
+                "Ünal H",
+                "Sarpün IH",
+                "Koca T",
+                "Yılmazer B"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1093/rpd/ncaf183",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42233300/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41679920",
+              "pmcid": "PMC13041616",
+              "title": "MIRD Pamphlet No. 34, Part 1: MIRDct-A Customizable Software Tool for CT Dosimetry",
+              "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+              "pubdate": "2026 Apr 1",
+              "year": "2026",
+              "authors": [
+                "Ocampo Ramos JC",
+                "Kofler C",
+                "Dawson R",
+                "Baggett J",
+                "Dinwiddie LE",
+                "Domal SJ"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.2967/jnumed.125.270494",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41679920/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13041616/"
+            },
+            {
+              "pmid": "42315308",
+              "pmcid": null,
+              "title": "MIRD Pamphlet No. 34, Part 2: Benchmarking of MIRDct Software for CT Organ Dose Estimation",
+              "journal": "Journal of nuclear medicine : official publication, Society of Nuclear Medicine",
+              "pubdate": "2026 Jun 18",
+              "year": "2026",
+              "authors": [
+                "Kayal G",
+                "Ocampo Ramos JC",
+                "Dinwiddie LE",
+                "Baggett JM",
+                "Dawson RJ",
+                "Marquis H"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.2967/jnumed.125.271501",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/42315308/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41396419",
+              "pmcid": "PMC12950018",
+              "title": "Optimizing lens and organ dose evaluation in head CT examinations using monte carlo simulation: influence of gantry tilt and scan range",
+              "journal": "Radiological physics and technology",
+              "pubdate": "2026 Mar",
+              "year": "2026",
+              "authors": [
+                "Katsunuma Y",
+                "Sato K",
+                "Hasegawa T",
+                "Koba Y"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s12194-025-00980-5",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41396419/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12950018/"
+            },
+            {
+              "pmid": "41313371",
+              "pmcid": null,
+              "title": "Sub-mSv CT for pediatric and young adult hip imaging: a low-radiation-dose alternative to pelvic radiography",
+              "journal": "Pediatric radiology",
+              "pubdate": "2026 Feb",
+              "year": "2026",
+              "authors": [
+                "Sun P",
+                "Chu R",
+                "Tsai A",
+                "Lee C",
+                "Callahan MJ",
+                "Kim DS"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00247-025-06443-8",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41313371/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41588631",
+              "pmcid": "PMC12835190",
+              "title": "Survey of normalized CTDI(vol) values across four major computed tomography vendors for use in the MIRDct software",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2026 Feb",
+              "year": "2026",
+              "authors": [
+                "Dinwiddie LE",
+                "Baggett JM",
+                "Kofler JM",
+                "Kofler CB",
+                "Long DJ",
+                "Dawson RJ"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.70473",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41588631/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12835190/"
+            }
+          ]
+        },
+        {
+          "year": "2025",
+          "count": 17,
+          "articles": [
+            {
+              "pmid": "39169901",
+              "pmcid": "PMC11627314",
+              "title": "\"Ultralow-dose\" CT Without Sedation in Pediatric Patients With Neuromuscular Scoliosis",
+              "journal": "Journal of pediatric orthopedics",
+              "pubdate": "2025 Jan 1",
+              "year": "2025",
+              "authors": [
+                "Yee NJ",
+                "Iorio C",
+                "Shkumat N",
+                "Rocos B",
+                "Lebel D",
+                "Camp M"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1097/BPO.0000000000002786",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39169901/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11627314/"
+            },
+            {
+              "pmid": "40815377",
+              "pmcid": "PMC12602571",
+              "title": "A systematic review of radiation dose to the eye lens from pediatric brain computed tomography scans",
+              "journal": "Pediatric radiology",
+              "pubdate": "2025 Nov",
+              "year": "2025",
+              "authors": [
+                "Perdomo AA",
+                "Forster JC",
+                "Badawy MK"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s00247-025-06371-7",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40815377/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12602571/"
+            },
+            {
+              "pmid": "40746519",
+              "pmcid": "PMC12308564",
+              "title": "Advances in radiation protection related to pediatric chest computed tomography examinations",
+              "journal": "World journal of radiology",
+              "pubdate": "2025 Jul 28",
+              "year": "2025",
+              "authors": [
+                "Sun QT",
+                "Fan YH",
+                "Liang BH"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.4329/wjr.v17.i7.107486",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40746519/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12308564/"
+            },
+            {
+              "pmid": "39999748",
+              "pmcid": null,
+              "title": "Assessment of organ dose for adult undergoing CT examinations: Comparison of three software applications using Monte Carlo simulation",
+              "journal": "Applied radiation and isotopes : including data, instrumentation and methods for use in agriculture, industry and medicine",
+              "pubdate": "2025 Jun",
+              "year": "2025",
+              "authors": [
+                "Hakme M",
+                "Francis Z",
+                "Rizk C",
+                "Fares G"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.apradiso.2025.111740",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39999748/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "38982690",
+              "pmcid": "PMC12449605",
+              "title": "Demonstrating the use of population level data to investigate trends in the rate, radiation dose and cost of Computed Tomography across clinical groups: Are there any areas of concern?",
+              "journal": "Journal of medical radiation sciences",
+              "pubdate": "2025 Sep",
+              "year": "2025",
+              "authors": [
+                "Kamarova S",
+                "Youens D",
+                "Ha NT",
+                "Bulsara M",
+                "Doust J",
+                "Fox R"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/jmrs.811",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38982690/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12449605/"
+            },
+            {
+              "pmid": "40293369",
+              "pmcid": null,
+              "title": "Determination of Effective Dose and Fetus Dose Conversion Factors for CT Scans in Pregnant Patients: A Simulation Study Using the NCICT Program",
+              "journal": "Health physics",
+              "pubdate": "2025 Nov 1",
+              "year": "2025",
+              "authors": [
+                "Sookpeng S"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1097/HP.0000000000001984",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40293369/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "40764980",
+              "pmcid": "PMC12326660",
+              "title": "Determination of redundant scan coverages along the Z-axis and dose implications for common paediatric computed tomography imaging examinations in a limited resource setting",
+              "journal": "BMC medical imaging",
+              "pubdate": "2025 Aug 5",
+              "year": "2025",
+              "authors": [
+                "Ampofo RY",
+                "Kyei KA",
+                "Daniels J",
+                "Nyantakyi AY"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1186/s12880-025-01860-5",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40764980/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12326660/"
+            },
+            {
+              "pmid": "41296122",
+              "pmcid": "PMC12753603",
+              "title": "Diagnostic CT organ dose estimation in whole-body PET/CT examinations-comparison of a patient-specific monte carlo approach and a computational phantom-based CT dosimetry tool",
+              "journal": "EJNMMI physics",
+              "pubdate": "2025 Nov 26",
+              "year": "2025",
+              "authors": [
+                "Verfaillie G",
+                "D'Asseler Y",
+                "Bacher K"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1186/s40658-025-00811-x",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41296122/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12753603/"
+            },
+            {
+              "pmid": "40780223",
+              "pmcid": null,
+              "title": "Digital phantom versus individualised radiation dosimetry in CT examination protocols for children and adults",
+              "journal": "Journal of radiological protection : official journal of the Society for Radiological Protection",
+              "pubdate": "2025 Sep 11",
+              "year": "2025",
+              "authors": [
+                "Papadakis AE",
+                "Karantanas A",
+                "Damilakis J"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6498/adf974",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40780223/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41045819",
+              "pmcid": null,
+              "title": "Evaluation of cumulative radiation burden and associated risk in smouldering multiple myeloma patients monitored using recurrent whole-body low-dose CT imaging",
+              "journal": "Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)",
+              "pubdate": "2025 Oct",
+              "year": "2025",
+              "authors": [
+                "Abissi PW",
+                "Lymperopoulou G",
+                "Agrokostas VP",
+                "Koutoulidis V",
+                "Grigoropoulos P",
+                "Terpos E"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.ejmp.2025.105173",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41045819/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41170700",
+              "pmcid": "PMC12576459",
+              "title": "Improved organ absorbed dose estimation in abdominal CT using DICOM header-based tube current modulation profiles: Validation with measurements and Monte Carlo simulations",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2025 Nov",
+              "year": "2025",
+              "authors": [
+                "Nuntue C",
+                "Matsubara K",
+                "Watanabe S",
+                "Fukushima K",
+                "Tantiwetchayanon K"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.70321",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41170700/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12576459/"
+            },
+            {
+              "pmid": "40367536",
+              "pmcid": null,
+              "title": "Organ doses, effective dose, and cancer risk estimation from whole-body CT scans in PET-CT imaging",
+              "journal": "Applied radiation and isotopes : including data, instrumentation and methods for use in agriculture, industry and medicine",
+              "pubdate": "2025 Oct",
+              "year": "2025",
+              "authors": [
+                "Sheikhzadeh P",
+                "Asami M",
+                "Mofrad MS",
+                "Abdolmaleki M",
+                "Mohammadi T",
+                "Kasraie N"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.apradiso.2025.111892",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40367536/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "40873456",
+              "pmcid": "PMC12379956",
+              "title": "Patient-specific organ dose calculation using automatic segmentation and extension of CT scans",
+              "journal": "Radiation physics and chemistry (Oxford, England : 1993)",
+              "pubdate": "2025 Dec",
+              "year": "2025",
+              "authors": [
+                "Morató S",
+                "Juste B",
+                "Miró R",
+                "Santos A",
+                "Badal A",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1016/j.radphyschem.2025.113013",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40873456/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12379956/"
+            },
+            {
+              "pmid": "40597324",
+              "pmcid": "PMC12211530",
+              "title": "Pediatric computed tomography scan and subsequent risk of malignancy: a nationwide population-based cohort study in Korea using National Cancer Institute dosimetry system for computed tomography (NCICT)",
+              "journal": "BMC medicine",
+              "pubdate": "2025 Jul 1",
+              "year": "2025",
+              "authors": [
+                "Han S",
+                "Soh J",
+                "Nah S",
+                "Han K",
+                "Jung JH",
+                "Park J"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1186/s12916-025-04235-3",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40597324/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12211530/"
+            },
+            {
+              "pmid": "40988319",
+              "pmcid": "PMC12490101",
+              "title": "Predictive factors of oral mucositis in patients with locally recurrent inoperable head and neck cancer treated with boron neutron capture therapy",
+              "journal": "Acta oncologica (Stockholm, Sweden)",
+              "pubdate": "2025 Sep 23",
+              "year": "2025",
+              "authors": [
+                "Mälkiä T",
+                "Koivunoro H",
+                "Seppälä T",
+                "Kankaanranta L",
+                "Porra L",
+                "Anttonen A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.2340/1651-226X.2025.44039",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40988319/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12490101/"
+            },
+            {
+              "pmid": "40184229",
+              "pmcid": null,
+              "title": "Risk of childhood brain tumors after exposure to CT radiation: A nationwide population-based case-control study in Finland",
+              "journal": "International journal of cancer",
+              "pubdate": "2025 Jun 1",
+              "year": "2025",
+              "authors": [
+                "Abuhamed J",
+                "Nikkilä A",
+                "Raitanen J",
+                "Lohi O",
+                "Auvinen A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/ijc.35318",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40184229/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "40777691",
+              "pmcid": "PMC12329613",
+              "title": "Usefulness of a New Effective Dose Conversion Factor Using Size-Specific Dose Estimate (SSDE) in Abdominopelvic Region",
+              "journal": "Cureus",
+              "pubdate": "2025 Jul",
+              "year": "2025",
+              "authors": [
+                "Takanashi M",
+                "Katada Y",
+                "Kuroda I",
+                "Hoshina M",
+                "Matsushita M",
+                "Masuda K"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.7759/cureus.87499",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40777691/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12329613/"
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "count": 11,
+          "articles": [
+            {
+              "pmid": "38634980",
+              "pmcid": "PMC11408396",
+              "title": "Accuracy of patient-specific CT organ doses from Monte Carlo simulations: influence of CT-based voxel models",
+              "journal": "Physical and engineering sciences in medicine",
+              "pubdate": "2024 Sep",
+              "year": "2024",
+              "authors": [
+                "Verfaillie G",
+                "Rutten J",
+                "D'Asseler Y",
+                "Bacher K"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s13246-024-01422-z",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38634980/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11408396/"
+            },
+            {
+              "pmid": "38014578",
+              "pmcid": "PMC11288167",
+              "title": "Assessment of Cataract Risk after Diagnostic Head CT Scan Radiation Exposure in Ontario, Canada",
+              "journal": "Radiation research",
+              "pubdate": "2024 Jan 1",
+              "year": "2024",
+              "authors": [
+                "Emami P",
+                "Gaudreau K",
+                "Little MP",
+                "Lee C",
+                "Moroz B",
+                "Boreham DR"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1667/RADE-23-00179.1",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38014578/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11288167/"
+            },
+            {
+              "pmid": "39728913",
+              "pmcid": "PMC11679132",
+              "title": "Automated Measurement of Effective Radiation Dose by (18)F-Fluorodeoxyglucose Positron Emission Tomography/Computed Tomography",
+              "journal": "Tomography (Ann Arbor, Mich.)",
+              "pubdate": "2024 Dec 23",
+              "year": "2024",
+              "authors": [
+                "Eom Y",
+                "Park YJ",
+                "Lee S",
+                "Lee SJ",
+                "An YS",
+                "Park BN"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.3390/tomography10120151",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39728913/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11679132/"
+            },
+            {
+              "pmid": "38206532",
+              "pmcid": "PMC11166780",
+              "title": "Comparing fetal phantoms with surrogate organs in female phantoms during CT exposure of pregnant patients",
+              "journal": "Physical and engineering sciences in medicine",
+              "pubdate": "2024 Jun",
+              "year": "2024",
+              "authors": [
+                "Badawy MK",
+                "Kashish K",
+                "Payne S",
+                "Masterson M"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s13246-024-01383-3",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38206532/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11166780/"
+            },
+            {
+              "pmid": "39045197",
+              "pmcid": "PMC11251694",
+              "title": "Cumulative radiation dose from medical imaging in paediatric congenital heart disease patients with epicardial cardiac implantable electronic devices",
+              "journal": "European heart journal. Imaging methods and practice",
+              "pubdate": "2024 Jan",
+              "year": "2024",
+              "authors": [
+                "Aboyewa OB",
+                "Laternser C",
+                "Popescu A",
+                "Murphy N",
+                "Shah D",
+                "Monge MC"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1093/ehjimp/qyae060",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39045197/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11251694/"
+            },
+            {
+              "pmid": "38778565",
+              "pmcid": "PMC11244670",
+              "title": "Digital phantom versus patient-specific radiation dosimetry in adult routine thorax CT examinations",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2024 Jul",
+              "year": "2024",
+              "authors": [
+                "Papadakis AE",
+                "Giannakaki V",
+                "Stratakis J",
+                "Myronakis M",
+                "Zaidi H",
+                "Damilakis J"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.14389",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38778565/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11244670/"
+            },
+            {
+              "pmid": "39926146",
+              "pmcid": "PMC11801094",
+              "title": "Evaluating the Utilization of the National Cancer Institute Computed Tomography Program for Calculating Size-specific Dose Estimate and Effective Dose in Computed Tomography in Thai Pediatric Patients",
+              "journal": "Journal of medical physics",
+              "pubdate": "2024 Oct-Dec",
+              "year": "2024",
+              "authors": [
+                "Sookpeng S",
+                "Martin CJ",
+                "Rattanarungruangchai N",
+                "López-Gonzalez MR"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.4103/jmp.jmp_49_24",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39926146/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11801094/"
+            },
+            {
+              "pmid": "38635846",
+              "pmcid": "PMC11025952",
+              "title": "Evaluation of radiological capacity and usage in paediatric TB diagnosis: A mixed-method protocol of a comparative study in Mozambique, South Africa and Spain",
+              "journal": "PloS one",
+              "pubdate": "2024",
+              "year": "2024",
+              "authors": [
+                "Munyangaju I",
+                "José B",
+                "Esmail R",
+                "Palmer M",
+                "Santiago B",
+                "Hernanz-Lobo A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1371/journal.pone.0299293",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38635846/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11025952/"
+            },
+            {
+              "pmid": "37450579",
+              "pmcid": "PMC10765163",
+              "title": "Radiation-Related Thyroid Cancer",
+              "journal": "Endocrine reviews",
+              "pubdate": "2024 Jan 4",
+              "year": "2024",
+              "authors": [
+                "Saenko V",
+                "Mitsutake N"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1210/endrev/bnad022",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37450579/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10765163/"
+            },
+            {
+              "pmid": "38186237",
+              "pmcid": "PMC10954068",
+              "title": "Reconstruction of organ doses for patients undergoing computed tomography examinations in Canada 1992-2019",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2024 Mar 20",
+              "year": "2024",
+              "authors": [
+                "Lee C",
+                "Moroz B",
+                "Thome C",
+                "Gaudreau K",
+                "Emami P",
+                "Little MP"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1093/rpd/ncad315",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38186237/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10954068/"
+            },
+            {
+              "pmid": "39146953",
+              "pmcid": null,
+              "title": "The determination of coefficients for size specific effective dose for adult and pediatric patients undergoing routine computed tomography examinations",
+              "journal": "Journal of radiological protection : official journal of the Society for Radiological Protection",
+              "pubdate": "2024 Aug 28",
+              "year": "2024",
+              "authors": [
+                "Sookpeng S",
+                "Martin CJ"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6498/ad6faa",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39146953/",
+              "pmcUrl": null
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "count": 6,
+          "articles": [
+            {
+              "pmid": "36638155",
+              "pmcid": "PMC10326490",
+              "title": "Computed tomography scan radiation and brain cancer incidence",
+              "journal": "Neuro-oncology",
+              "pubdate": "2023 Jul 6",
+              "year": "2023",
+              "authors": [
+                "Smoll NR",
+                "Brady Z",
+                "Scurrah KJ",
+                "Lee C",
+                "Berrington de González A",
+                "Mathews JD"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1093/neuonc/noad012",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36638155/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10326490/"
+            },
+            {
+              "pmid": "37024637",
+              "pmcid": "PMC10079797",
+              "title": "Diagnostic reference level quantities for adult chest and abdomen-pelvis CT examinations: correlation with organ doses",
+              "journal": "Insights into imaging",
+              "pubdate": "2023 Apr 7",
+              "year": "2023",
+              "authors": [
+                "Costa PR",
+                "Tomal A",
+                "de Oliveira Castro JC",
+                "Nunes IPF",
+                "Nersissian DY",
+                "Sawamura MVY"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1186/s13244-023-01403-y",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37024637/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10079797/"
+            },
+            {
+              "pmid": "37132289",
+              "pmcid": "PMC10243315",
+              "title": "Estimating size specific dose estimate from computed tomography radiograph localizer with radiation risk assessment",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2023 Jun",
+              "year": "2023",
+              "authors": [
+                "Burton CS",
+                "Al-Ward S"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.13989",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37132289/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10243315/"
+            },
+            {
+              "pmid": "37191831",
+              "pmcid": "PMC11281830",
+              "title": "Lympho-hematopoietic malignancies risk after exposure to low dose ionizing radiation during cardiac catheterization in childhood",
+              "journal": "European journal of epidemiology",
+              "pubdate": "2023 Jul",
+              "year": "2023",
+              "authors": [
+                "Abalo KD",
+                "Malekzadeh-Milani S",
+                "Hascoët S",
+                "Dreuil S",
+                "Feuillet T",
+                "Damon C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s10654-023-01010-7",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37191831/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11281830/"
+            },
+            {
+              "pmid": "36898163",
+              "pmcid": null,
+              "title": "Patient-specific Monte Carlo-based organ dose estimates in spiral CT via optical 3D body scanning and adaptation of a voxelized phantom dataset: proof-of-principle",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2023 Apr 4",
+              "year": "2023",
+              "authors": [
+                "Maddaloni FS",
+                "Sarno A",
+                "Mettivier G",
+                "Clemente S",
+                "Oliviero C",
+                "Ricciardi R"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6560/acc37d",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36898163/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "37946058",
+              "pmcid": "PMC10719096",
+              "title": "Risk of hematological malignancies from CT radiation exposure in children, adolescents and young adults",
+              "journal": "Nature medicine",
+              "pubdate": "2023 Dec",
+              "year": "2023",
+              "authors": [
+                "Bosch de Basea M",
+                "Thierry-Chef I",
+                "Harbron R",
+                "Hauptmann M",
+                "Byrnes G",
+                "Bernier MO"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1038/s41591-023-02620-0",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37946058/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10719096/"
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "count": 11,
+          "articles": [
+            {
+              "pmid": "35861626",
+              "pmcid": "PMC9530642",
+              "title": "Cancer Effects of Low to Moderate Doses of Ionizing Radiation in Young People with Cancer-Predisposing Conditions: A Systematic Review",
+              "journal": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+              "pubdate": "2022 Oct 4",
+              "year": "2022",
+              "authors": [
+                "Canet M",
+                "Harbron R",
+                "Thierry-Chef I",
+                "Cardis E"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1158/1055-9965.EPI-22-0393",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35861626/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9530642/"
+            },
+            {
+              "pmid": "36083886",
+              "pmcid": "PMC9462670",
+              "title": "Cohort profile: The Australian Paediatric Exposure to Radiation Cohort (Aust-PERC)",
+              "journal": "PloS one",
+              "pubdate": "2022",
+              "year": "2022",
+              "authors": [
+                "McBain-Miller J",
+                "Scurrah KJ",
+                "Brady Z",
+                "Mathews JD"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1371/journal.pone.0271918",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36083886/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9462670/"
+            },
+            {
+              "pmid": "35522240",
+              "pmcid": "PMC9194989",
+              "title": "Comparison of organ and effective dose estimations from different Monte Carlo simulation-based software methods in infant CT and comparison with direct phantom measurements",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2022 Jun",
+              "year": "2022",
+              "authors": [
+                "Lawson M",
+                "Berk K",
+                "Badawy M",
+                "Qi Y",
+                "Kuganesan A",
+                "Metcalfe P"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.13625",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35522240/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9194989/"
+            },
+            {
+              "pmid": "36206721",
+              "pmcid": null,
+              "title": "CT organ dose calculator size adaptive for pediatric and adult patients",
+              "journal": "Biomedical physics & engineering express",
+              "pubdate": "2022 Oct 19",
+              "year": "2022",
+              "authors": [
+                "Lee C",
+                "Yeom YS",
+                "Folio L"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/2057-1976/ac9845",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36206721/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "36699908",
+              "pmcid": "PMC9868812",
+              "title": "Estimation of radiation doses and lifetime attributable risk of radiation-induced cancer in the uterus and prostate from abdomen pelvis CT examinations",
+              "journal": "Frontiers in public health",
+              "pubdate": "2022",
+              "year": "2022",
+              "authors": [
+                "Shubayr N",
+                "Alashban Y"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.3389/fpubh.2022.1094328",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36699908/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9868812/"
+            },
+            {
+              "pmid": "35026741",
+              "pmcid": "PMC9890509",
+              "title": "Fetal dose from proton pencil beam scanning craniospinal irradiation during pregnancy: a Monte Carlo study",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2022 Jan 28",
+              "year": "2022",
+              "authors": [
+                "Yeom YS",
+                "Griffin KT",
+                "Mille MM",
+                "Lee C",
+                "O'Reilly S",
+                "Dong L"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/1361-6560/ac4b38",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35026741/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9890509/"
+            },
+            {
+              "pmid": "38895599",
+              "pmcid": "PMC11185357",
+              "title": "Organ dose conversion coefficients in CT scans for Korean adult males and females",
+              "journal": "Nuclear engineering and technology",
+              "pubdate": "2022 Feb",
+              "year": "2022",
+              "authors": [
+                "Lee C",
+                "Won T",
+                "Yeom YS",
+                "Griffin K",
+                "Lee C",
+                "Kim KP"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1016/j.net.2021.08.008",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38895599/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185357/"
+            },
+            {
+              "pmid": "36120406",
+              "pmcid": "PMC9480506",
+              "title": "Pediatric effective dose assessment for routine computed tomography examinations in Tehran, Iran",
+              "journal": "Journal of medical signals and sensors",
+              "pubdate": "2022 Jul-Sep",
+              "year": "2022",
+              "authors": [
+                "Tahmasebzadeh A",
+                "Maziyar A",
+                "Reiazi R",
+                "Kermanshahi MS",
+                "Anijdan SHM",
+                "Paydar R"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.4103/jmss.jmss_115_21",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36120406/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9480506/"
+            },
+            {
+              "pmid": "34959181",
+              "pmcid": "PMC9118883",
+              "title": "Review of the risk of cancer following low and moderate doses of sparsely ionising radiation received in early life in groups with individually estimated doses",
+              "journal": "Environment international",
+              "pubdate": "2022 Jan 15",
+              "year": "2022",
+              "authors": [
+                "Little MP",
+                "Wakeford R",
+                "Bouffler SD",
+                "Abalo K",
+                "Hauptmann M",
+                "Hamada N"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.envint.2021.106983",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34959181/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9118883/"
+            },
+            {
+              "pmid": "36136740",
+              "pmcid": "PMC9797580",
+              "title": "The Evidence for Excess Risk of Cancer and Non-Cancer Disease at Low Doses and Dose Rates",
+              "journal": "Radiation research",
+              "pubdate": "2022 Dec 1",
+              "year": "2022",
+              "authors": [
+                "Simon SL",
+                "Kendall GM",
+                "Bouffler SD",
+                "Little MP"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1667/RADE-22-00132.1",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36136740/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9797580/"
+            },
+            {
+              "pmid": "34836834",
+              "pmcid": null,
+              "title": "Variability of redundant scan coverages along the Z-axis and dose implications for common computed tomography examinations",
+              "journal": "Journal of medical imaging and radiation sciences",
+              "pubdate": "2022 Mar",
+              "year": "2022",
+              "authors": [
+                "Botwe BO",
+                "Schandorf C",
+                "Inkoom S",
+                "Faanu A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.jmir.2021.10.007",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34836834/",
+              "pmcUrl": null
+            }
+          ]
+        },
+        {
+          "year": "2021",
+          "count": 9,
+          "articles": [
+            {
+              "pmid": "34132330",
+              "pmcid": null,
+              "title": "COMPARISON OF ORGAN ABSORBED DOSES IN WHOLE-BODY COMPUTED TOMOGRAPHY SCANS OF PAEDIATRIC AND ADULT PATIENT MODELS ESTIMATED BY DIFFERENT METHODS",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2021 Oct 12",
+              "year": "2021",
+              "authors": [
+                "Chipiga L",
+                "Golikov V",
+                "Vodovatov A",
+                "Bernhardsson C"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1093/rpd/ncab086",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34132330/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "33937120",
+              "pmcid": "PMC8064136",
+              "title": "Contribution of Imaging to Organs at Risk Dose during Lung Stereotactic Body Radiation Therapy",
+              "journal": "Journal of biomedical physics & engineering",
+              "pubdate": "2021 Apr",
+              "year": "2021",
+              "authors": [
+                "Savanović M",
+                "Gardavaud F",
+                "Jaroš D",
+                "Lonkuta B",
+                "Barral M",
+                "Henri Cornelis F"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.31661/jbpe.v0i0.2009-1173",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33937120/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8064136/"
+            },
+            {
+              "pmid": "33987905",
+              "pmcid": "PMC10789152",
+              "title": "Conversion factors to derive organ doses for canine subjects undergoing CT examinations",
+              "journal": "Veterinary radiology & ultrasound : the official journal of the American College of Veterinary Radiology and the International Veterinary Radiology Association",
+              "pubdate": "2021 Jul",
+              "year": "2021",
+              "authors": [
+                "Yoon J",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1111/vru.12979",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33987905/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10789152/"
+            },
+            {
+              "pmid": "33914893",
+              "pmcid": null,
+              "title": "Dose Estimation for the European Epidemiological Study on Pediatric Computed Tomography (EPI-CT)",
+              "journal": "Radiation research",
+              "pubdate": "2021 Jul 1",
+              "year": "2021",
+              "authors": [
+                "Thierry-Chef I",
+                "Ferro G",
+                "Le Cornet L",
+                "Dabin J",
+                "Istad TS",
+                "Jahnen A"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1667/RADE-20-00231.1",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33914893/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "33690180",
+              "pmcid": null,
+              "title": "Dose quantities for measurement and comparison of doses to individual patients in computed tomography (CT)",
+              "journal": "Journal of radiological protection : official journal of the Society for Radiological Protection",
+              "pubdate": "2021 Nov 3",
+              "year": "2021",
+              "authors": [
+                "Martin CJ",
+                "Abuhaimed A",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/1361-6498/abecf5",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33690180/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "34096826",
+              "pmcid": null,
+              "title": "Lifetime attributable cancer risk related to prevalent CT scan procedures in pediatric medical imaging centers",
+              "journal": "International journal of radiation biology",
+              "pubdate": "2021",
+              "year": "2021",
+              "authors": [
+                "Tahmasebzadeh A",
+                "Paydar R",
+                "Soltani-Kermanshahi M",
+                "Maziar A",
+                "Reiazi R"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1080/09553002.2021.1931527",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34096826/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "34557925",
+              "pmcid": "PMC8500036",
+              "title": "OPTIMIZATION OF LUNG CT PROTOCOL FOR THE DIAGNOSTIC EVALUATION OF COVID-19 LUNG DISEASE",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2021 Nov 3",
+              "year": "2021",
+              "authors": [
+                "Hosseini Nasab SMB",
+                "Deevband MR",
+                "Rahimi R",
+                "Nasiri S",
+                "Ahangaran MR",
+                "Morshedi M"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1093/rpd/ncab140",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34557925/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8500036/"
+            },
+            {
+              "pmid": "38894707",
+              "pmcid": "PMC11185358",
+              "title": "Radiation dose from computed tomography scans for Korean pediatric and adult patients",
+              "journal": "Journal of radiation protection and research",
+              "pubdate": "2021 Sep",
+              "year": "2021",
+              "authors": [
+                "Won T",
+                "Lee AK",
+                "Choi HD",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.14407/jrpr.2021.00010",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38894707/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11185358/"
+            },
+            {
+              "pmid": "33783569",
+              "pmcid": "PMC8452580",
+              "title": "The presence of contrast agent increases organ radiation dose in contrast-enhanced CT",
+              "journal": "European radiology",
+              "pubdate": "2021 Oct",
+              "year": "2021",
+              "authors": [
+                "Mazloumi M",
+                "Van Gompel G",
+                "Kersemans V",
+                "de Mey J",
+                "Buls N"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s00330-021-07763-7",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33783569/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8452580/"
+            }
+          ]
+        },
+        {
+          "year": "2020",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "32967352",
+              "pmcid": "PMC7554984",
+              "title": "Development of CT Effective Dose Conversion Factors from Clinical CT Examinations in the Republic of Korea",
+              "journal": "Diagnostics (Basel, Switzerland)",
+              "pubdate": "2020 Sep 21",
+              "year": "2020",
+              "authors": [
+                "Lee SK",
+                "Kim JS",
+                "Yoon SW",
+                "Kim JM"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.3390/diagnostics10090727",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32967352/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7554984/"
+            },
+            {
+              "pmid": "32528028",
+              "pmcid": "PMC7289876",
+              "title": "Individual Calculation of Effective Dose and Risk of Malignancy Based on Monte Carlo Simulations after Whole Body Computed Tomography",
+              "journal": "Scientific reports",
+              "pubdate": "2020 Jun 11",
+              "year": "2020",
+              "authors": [
+                "Kopp M",
+                "Loewe T",
+                "Wuest W",
+                "Brand M",
+                "Wetzl M",
+                "Nitsch W"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1038/s41598-020-66366-2",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32528028/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7289876/"
+            },
+            {
+              "pmid": "32060664",
+              "pmcid": "PMC7021892",
+              "title": "Patient organ and effective dose estimation in CT: comparison of four software applications",
+              "journal": "European radiology experimental",
+              "pubdate": "2020 Feb 14",
+              "year": "2020",
+              "authors": [
+                "De Mattia C",
+                "Campanaro F",
+                "Rottoli F",
+                "Colombo PE",
+                "Pola A",
+                "Vanzulli A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1186/s41747-019-0130-5",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/32060664/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7021892/"
+            },
+            {
+              "pmid": "33335951",
+              "pmcid": "PMC7733003",
+              "title": "Trends of computed tomography use among children in Finland",
+              "journal": "European journal of radiology open",
+              "pubdate": "2020",
+              "year": "2020",
+              "authors": [
+                "Abuhamed J",
+                "Nikkilä A",
+                "Lohi O",
+                "Auvinen A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.ejro.2020.100290",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33335951/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7733003/"
+            }
+          ]
+        },
+        {
+          "year": "2019",
+          "count": 9,
+          "articles": [
+            {
+              "pmid": "30653334",
+              "pmcid": "PMC6540867",
+              "title": "An Australian local diagnostic reference level for paediatric whole-body (18)F-FDG PET/CT",
+              "journal": "The British journal of radiology",
+              "pubdate": "2019 Apr",
+              "year": "2019",
+              "authors": [
+                "Alkhybari EM",
+                "McEntee MF",
+                "Willowson KP",
+                "Brennan PC",
+                "Kitsos T",
+                "Kench PL"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1259/bjr.20180879",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30653334/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6540867/"
+            },
+            {
+              "pmid": "30187315",
+              "pmcid": "PMC6382640",
+              "title": "Automatic Mapping of CT Scan Locations on Computational Human Phantoms for Organ Dose Estimation",
+              "journal": "Journal of digital imaging",
+              "pubdate": "2019 Feb",
+              "year": "2019",
+              "authors": [
+                "Lee C",
+                "Kuzmin GA",
+                "Bae J",
+                "Yao J",
+                "Mosher E",
+                "Folio LR"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s10278-018-0119-2",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30187315/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6382640/"
+            },
+            {
+              "pmid": "30388267",
+              "pmcid": "PMC6469297",
+              "title": "Cohort Profile: the EPI-CT study: a European pooled epidemiological study to quantify the risk of radiation-induced cancer from paediatric CT",
+              "journal": "International journal of epidemiology",
+              "pubdate": "2019 Apr 1",
+              "year": "2019",
+              "authors": [
+                "Bernier MO",
+                "Baysson H",
+                "Pearce MS",
+                "Moissonnier M",
+                "Cardis E",
+                "Hauptmann M"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1093/ije/dyy231",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30388267/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6469297/"
+            },
+            {
+              "pmid": "30299237",
+              "pmcid": "PMC6312431",
+              "title": "Cumulative Radiation Exposures from CT Screening and Surveillance Strategies for von Hippel-Lindau-associated Solid Pancreatic Tumors",
+              "journal": "Radiology",
+              "pubdate": "2019 Jan",
+              "year": "2019",
+              "authors": [
+                "Tirosh A",
+                "Journy N",
+                "Folio LR",
+                "Lee C",
+                "Leite C",
+                "Yao J"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1148/radiol.2018180687",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30299237/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6312431/"
+            },
+            {
+              "pmid": "31412037",
+              "pmcid": "PMC6693687",
+              "title": "How have advances in CT dosimetry software impacted estimates of CT radiation dose and cancer incidence? A comparison of CT dosimetry software: Implications for past and future research",
+              "journal": "PloS one",
+              "pubdate": "2019",
+              "year": "2019",
+              "authors": [
+                "Maxwell S",
+                "Fox R",
+                "McRobbie D",
+                "Bulsara M",
+                "Doust J",
+                "O'Leary P"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1371/journal.pone.0217816",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/31412037/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6693687/"
+            },
+            {
+              "pmid": "30371899",
+              "pmcid": "PMC6657815",
+              "title": "ORGAN DOSE ESTIMATION ACCOUNTING FOR UNCERTAINTY FOR PEDIATRIC AND YOUNG ADULT CT SCANS IN THE UNITED KINGDOM",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2019 Jul 1",
+              "year": "2019",
+              "authors": [
+                "Lee C",
+                "Journy N",
+                "Moroz BE",
+                "Little M",
+                "Harbron R",
+                "McHugh K"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1093/rpd/ncy184",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30371899/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6657815/"
+            },
+            {
+              "pmid": "30508315",
+              "pmcid": "PMC6333138",
+              "title": "Organ doses evaluation for chest computed tomography procedures with TL dosimeters: Comparison with Monte Carlo simulations",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2019 Jan",
+              "year": "2019",
+              "authors": [
+                "Giansante L",
+                "Martins JC",
+                "Nersissian DY",
+                "Kiers KC",
+                "Kay FU",
+                "Sawamura MVY"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1002/acm2.12505",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30508315/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6333138/"
+            },
+            {
+              "pmid": "31375261",
+              "pmcid": null,
+              "title": "Radiation dose to the lens from CT of the head in young people",
+              "journal": "Clinical radiology",
+              "pubdate": "2019 Oct",
+              "year": "2019",
+              "authors": [
+                "Harbron RW",
+                "Ainsbury EA",
+                "Barnard SGR",
+                "Lee C",
+                "McHugh K",
+                "Berrington de González A"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1016/j.crad.2019.06.029",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/31375261/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "30020493",
+              "pmcid": "PMC6657440",
+              "title": "Radiation Exposure From Pediatric CT Scans and Subsequent Cancer Risk in the Netherlands",
+              "journal": "Journal of the National Cancer Institute",
+              "pubdate": "2019 Mar 1",
+              "year": "2019",
+              "authors": [
+                "Meulepas JM",
+                "Ronckers CM",
+                "Smets AMJB",
+                "Nievelstein RAJ",
+                "Gradowska P",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1093/jnci/djy104",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30020493/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6657440/"
+            }
+          ]
+        },
+        {
+          "year": "2018",
+          "count": 3,
+          "articles": [
+            {
+              "pmid": "28981878",
+              "pmcid": "PMC5927330",
+              "title": "A NOVEL METHOD TO ESTIMATE LYMPHOCYTE DOSE AND APPLICATION TO PEDIATRIC AND YOUNG ADULT CT PATIENTS IN THE UNITED KINGDOM",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2018 Jan 1",
+              "year": "2018",
+              "authors": [
+                "Lee C",
+                "Morton LM",
+                "Berrington de González A"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1093/rpd/ncx084",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28981878/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5927330/"
+            },
+            {
+              "pmid": "29547058",
+              "pmcid": "PMC8666130",
+              "title": "Lens Dose Reduction by Patient Posture Modification During Neck CT",
+              "journal": "AJR. American journal of roentgenology",
+              "pubdate": "2018 May",
+              "year": "2018",
+              "authors": [
+                "Mosher EG",
+                "Butman JA",
+                "Folio LR",
+                "Biassou NM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.2214/AJR.17.18261",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29547058/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8666130/"
+            },
+            {
+              "pmid": "29976736",
+              "pmcid": "PMC6278981",
+              "title": "Radiation exposure from computerized tomography and risk of childhood leukemia: Finnish register-based case-control study of childhood leukemia (FRECCLE)",
+              "journal": "Haematologica",
+              "pubdate": "2018 Nov",
+              "year": "2018",
+              "authors": [
+                "Nikkilä A",
+                "Raitanen J",
+                "Lohi O",
+                "Auvinen A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.3324/haematol.2018.187716",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29976736/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6278981/"
+            }
+          ]
+        },
+        {
+          "year": "2017",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "28422430",
+              "pmcid": "PMC5689859",
+              "title": "AAPM Spring Clinical Meeting - Abstracts",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2017 Apr 19",
+              "year": "2017",
+              "authors": [],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.12068",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28422430/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5689859/"
+            },
+            {
+              "pmid": "28267354",
+              "pmcid": "PMC10774020",
+              "title": "Body Size-Specific Organ and Effective Doses of Chest CT Screening Examinations of the National Lung Screening Trial",
+              "journal": "AJR. American journal of roentgenology",
+              "pubdate": "2017 May",
+              "year": "2017",
+              "authors": [
+                "Lee C",
+                "Flynn MJ",
+                "Judy PF",
+                "Cody DD",
+                "Bolch WE",
+                "Kruger RL"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.2214/AJR.16.16979",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28267354/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10774020/"
+            },
+            {
+              "pmid": "28096313",
+              "pmcid": "PMC5927337",
+              "title": "Opportunities to Reduce CT Radiation Exposure, Experience Over 5 Years at the NIH Clinical Center",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2017 Aug 1",
+              "year": "2017",
+              "authors": [
+                "Kovacs WC",
+                "Yao J",
+                "Bluemke DA",
+                "Folio LR"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1093/rpd/ncw377",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28096313/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5927337/"
+            },
+            {
+              "pmid": "28968349",
+              "pmcid": "PMC5677542",
+              "title": "Thyroid Radiation Dose to Patients from Diagnostic Radiology Procedures over Eight Decades: 1930-2010",
+              "journal": "Health physics",
+              "pubdate": "2017 Dec",
+              "year": "2017",
+              "authors": [
+                "Chang LA",
+                "Miller DL",
+                "Lee C",
+                "Melo DR",
+                "Villoing D",
+                "Drozdovitch V"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1097/HP.0000000000000723",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28968349/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5677542/"
+            }
+          ]
+        },
+        {
+          "year": "2016",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "26755767",
+              "pmcid": "PMC5204364",
+              "title": "BODY SIZE-SPECIFIC EFFECTIVE DOSE CONVERSION COEFFICIENTS FOR CT SCANS",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2016 Dec",
+              "year": "2016",
+              "authors": [
+                "Romanyukha A",
+                "Folio L",
+                "Lamart S",
+                "Simon SL",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1093/rpd/ncv511",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26755767/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5204364/"
+            },
+            {
+              "pmid": "27866569",
+              "pmcid": "PMC5150210",
+              "title": "Computed Tomography in Germany",
+              "journal": "Deutsches Arzteblatt international",
+              "pubdate": "2016 Oct 28",
+              "year": "2016",
+              "authors": [
+                "Pokora R",
+                "Krille L",
+                "Dreger S",
+                "Lee C",
+                "Günster C",
+                "Zeeb H"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.3238/arztebl.2016.0721",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27866569/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5150210/"
+            },
+            {
+              "pmid": "26803507",
+              "pmcid": null,
+              "title": "Reconstruction of paediatric organ doses from axial CT scans performed in the 1990s - range of doses as input to uncertainty estimates",
+              "journal": "European radiology",
+              "pubdate": "2016 Sep",
+              "year": "2016",
+              "authors": [
+                "Olerud HM",
+                "Toft B",
+                "Flatabø S",
+                "Jahnen A",
+                "Lee C",
+                "Thierry-Chef I"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00330-015-4157-6",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26803507/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "27192093",
+              "pmcid": null,
+              "title": "Validation of calculation algorithms for organ doses in CT by measurements on a 5 year old paediatric phantom",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2016 Jun 7",
+              "year": "2016",
+              "authors": [
+                "Dabin J",
+                "Mencarelli A",
+                "McMillan D",
+                "Romanyukha A",
+                "Struelens L",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/61/11/4168",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27192093/",
+              "pmcUrl": null
+            }
+          ]
+        },
+        {
+          "year": "2015",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "26609995",
+              "pmcid": null,
+              "title": "NCICT: a computational solution to estimate organ doses for pediatric and adult patients undergoing CT scans",
+              "journal": "Journal of radiological protection : official journal of the Society for Radiological Protection",
+              "pubdate": "2015 Dec",
+              "year": "2015",
+              "authors": [
+                "Lee C",
+                "Kim KP",
+                "Bolch WE",
+                "Moroz BE",
+                "Folio L"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0952-4746/35/4/891",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26609995/",
+              "pmcUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ncirf",
+      "tool": "NCIRF",
+      "modality": "Fluoroscopy dosimetry",
+      "summary": "Peer-reviewed RF dosimetry publications continue to expand around projection imaging and fluoroscopy workflows.",
+      "queries": {
+        "pubmedTitleAbstract": "(\"NCIRF\"[Title/Abstract] OR \"National Cancer Institute dosimetry system for Radiography and Fluoroscopy\"[Title/Abstract]) AND (radiography[Title/Abstract] OR radiographic[Title/Abstract] OR fluoroscopy[Title/Abstract] OR fluoroscopic[Title/Abstract])",
+        "pmcFullText": "(\"NCIRF\"[body] OR \"National Cancer Institute dosimetry system for Radiography and Fluoroscopy\"[body]) AND (radiography[body] OR radiographic[body] OR fluoroscopy[body] OR fluoroscopic[body])"
+      },
+      "queryUrls": {
+        "pubmedTitleAbstract": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%22NCIRF%22%5BTitle%2FAbstract%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+Radiography+and+Fluoroscopy%22%5BTitle%2FAbstract%5D%29+AND+%28radiography%5BTitle%2FAbstract%5D+OR+radiographic%5BTitle%2FAbstract%5D+OR+fluoroscopy%5BTitle%2FAbstract%5D+OR+fluoroscopic%5BTitle%2FAbstract%5D%29",
+        "pmcFullText": "https://pmc.ncbi.nlm.nih.gov/search/?term=%28%22NCIRF%22%5Bbody%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+Radiography+and+Fluoroscopy%22%5Bbody%5D%29+AND+%28radiography%5Bbody%5D+OR+radiographic%5Bbody%5D+OR+fluoroscopy%5Bbody%5D+OR+fluoroscopic%5Bbody%5D%29"
+      },
+      "counts": {
+        "pubmedTitleAbstract": 11,
+        "pmcFullTextRecords": 9,
+        "pmcMappedPmids": 9,
+        "pmcWithoutPmid": 0,
+        "combinedUniquePmids": 16,
+        "displayedArticles": 16
+      },
+      "years": [
+        {
+          "year": "2026",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "41706156",
+              "pmcid": "PMC13035884",
+              "title": "Contextual dimensions of pediatric tuberculosis imaging: radiation exposure, access, and system capacity in high- and low-resource settings",
+              "journal": "Pediatric radiology",
+              "pubdate": "2026 Apr",
+              "year": "2026",
+              "authors": [
+                "Munyangaju I",
+                "Jahnen A",
+                "Esmail R",
+                "José B",
+                "Adrigwe J",
+                "Mutemba C"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s00247-026-06535-z",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41706156/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13035884/"
+            },
+            {
+              "pmid": "41207961",
+              "pmcid": null,
+              "title": "Feasibility of synthetic CT images for robotic pedicle screw planning and navigation",
+              "journal": "European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",
+              "pubdate": "2026 Mar",
+              "year": "2026",
+              "authors": [
+                "Kashtiara A",
+                "Beldé S",
+                "Thijs D",
+                "De Bondt T",
+                "Van Goethem J",
+                "Van de Kelft E"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s00586-025-09568-4",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41207961/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "40756629",
+              "pmcid": "PMC12311845",
+              "title": "Organ-level radiation dose estimations from cardiac catheterizations in neonates with tetralogy of Fallot",
+              "journal": "Radiation physics and chemistry (Oxford, England : 1993)",
+              "pubdate": "2026 Jan",
+              "year": "2026",
+              "authors": [
+                "Wong-Siegel JR",
+                "Glatz AC",
+                "Zampi JD",
+                "McCracken CE",
+                "Zhang Y",
+                "Goldstein BH"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1016/j.radphyschem.2025.113097",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40756629/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12311845/"
+            },
+            {
+              "pmid": "41313371",
+              "pmcid": null,
+              "title": "Sub-mSv CT for pediatric and young adult hip imaging: a low-radiation-dose alternative to pelvic radiography",
+              "journal": "Pediatric radiology",
+              "pubdate": "2026 Feb",
+              "year": "2026",
+              "authors": [
+                "Sun P",
+                "Chu R",
+                "Tsai A",
+                "Lee C",
+                "Callahan MJ",
+                "Kim DS"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00247-025-06443-8",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41313371/",
+              "pmcUrl": null
+            }
+          ]
+        },
+        {
+          "year": "2025",
+          "count": 6,
+          "articles": [
+            {
+              "pmid": "40694888",
+              "pmcid": null,
+              "title": "Effective and organ doses assessment in neuroradiologic and hemodynamic procedures: comparison among three different simulation software",
+              "journal": "Physica medica : PM : an international journal devoted to the applications of physics to medicine and biology : official journal of the Italian Association of Biomedical Physics (AIFB)",
+              "pubdate": "2025 Aug",
+              "year": "2025",
+              "authors": [
+                "Calderoni F",
+                "D'Alessio A",
+                "Felisi MMJ",
+                "Szilagyi KE",
+                "De Mattia C",
+                "Piano M"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1016/j.ejmp.2025.105053",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40694888/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "41003986",
+              "pmcid": null,
+              "title": "Estimation of organ and effective doses for rotational cerebral angiography using the National Cancer Institute Dosimetry System for Radiography and Fluoroscopy (NCIRF)",
+              "journal": "Radiological physics and technology",
+              "pubdate": "2025 Dec",
+              "year": "2025",
+              "authors": [
+                "Miyazaki H",
+                "Fujibuchi T",
+                "Han D",
+                "Oura K",
+                "Kosoegawa T",
+                "Hamasaki H"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s12194-025-00969-0",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41003986/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "39910834",
+              "pmcid": "PMC11972035",
+              "title": "Fast and accurate peak skin dose estimation method for interventional fluoroscopy patients",
+              "journal": "Medical physics",
+              "pubdate": "2025 Apr",
+              "year": "2025",
+              "authors": [
+                "Han H",
+                "Streitmatter SW",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1002/mp.17667",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39910834/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11972035/"
+            },
+            {
+              "pmid": "39969019",
+              "pmcid": "PMC11969096",
+              "title": "Prospective workup for the estimation of conceptus dose in fluoroscopically guided procedures",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2025 Apr",
+              "year": "2025",
+              "authors": [
+                "Marshall EL",
+                "Schwarz B",
+                "Glassell M",
+                "Lu ZF",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1002/acm2.70037",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39969019/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11969096/"
+            },
+            {
+              "pmid": "39808272",
+              "pmcid": null,
+              "title": "Skeletal surveys for suspected infant abuse: patient-specific radiation dose estimation using a hybrid computational phantom",
+              "journal": "Pediatric radiology",
+              "pubdate": "2025 Mar",
+              "year": "2025",
+              "authors": [
+                "Beaulieu D",
+                "Zhang D",
+                "Pérez-Rosselló JM",
+                "Nosrati R",
+                "Lee C",
+                "Tsai A"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00247-024-06157-3",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39808272/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "40657686",
+              "pmcid": "PMC12257353",
+              "title": "Utilization of spectral filteration for ultra-low dose brain CT in pediatric patients for diagnosis of craniosynostosis: A phantom study",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2025 Jul",
+              "year": "2025",
+              "authors": [
+                "Braniff C",
+                "Ditchfield M",
+                "Gubser M",
+                "Kuganesan A",
+                "Badawy MK"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.70176",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40657686/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12257353/"
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "38226878",
+              "pmcid": null,
+              "title": "Age-specific Dose Catalog for Diagnostic Fluoroscopy and Fluoroscopically Guided Interventional Procedures from a Pediatric Hospital",
+              "journal": "Radiology",
+              "pubdate": "2024 Jan",
+              "year": "2024",
+              "authors": [
+                "LaBella A",
+                "Kim DS",
+                "Chow JS",
+                "Padua HM",
+                "Zhang D"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1148/radiol.232128",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38226878/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "39045197",
+              "pmcid": "PMC11251694",
+              "title": "Cumulative radiation dose from medical imaging in paediatric congenital heart disease patients with epicardial cardiac implantable electronic devices",
+              "journal": "European heart journal. Imaging methods and practice",
+              "pubdate": "2024 Jan",
+              "year": "2024",
+              "authors": [
+                "Aboyewa OB",
+                "Laternser C",
+                "Popescu A",
+                "Murphy N",
+                "Shah D",
+                "Monge MC"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1093/ehjimp/qyae060",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39045197/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11251694/"
+            },
+            {
+              "pmid": "39290814",
+              "pmcid": "PMC11406038",
+              "title": "Cumulative Radiation Exposure and Lifetime Cancer Risk in Patients With Tetralogy of Fallot Requiring Early Intervention",
+              "journal": "JACC. Advances",
+              "pubdate": "2024 Oct",
+              "year": "2024",
+              "authors": [
+                "Wong-Siegel JR",
+                "Glatz AC",
+                "McCracken C",
+                "Lee C",
+                "Kitahara CM",
+                "Veiga LHS"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1016/j.jacadv.2024.101239",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39290814/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11406038/"
+            },
+            {
+              "pmid": "38635846",
+              "pmcid": "PMC11025952",
+              "title": "Evaluation of radiological capacity and usage in paediatric TB diagnosis: A mixed-method protocol of a comparative study in Mozambique, South Africa and Spain",
+              "journal": "PloS one",
+              "pubdate": "2024",
+              "year": "2024",
+              "authors": [
+                "Munyangaju I",
+                "José B",
+                "Esmail R",
+                "Palmer M",
+                "Santiago B",
+                "Hernanz-Lobo A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1371/journal.pone.0299293",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38635846/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11025952/"
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "count": 2,
+          "articles": [
+            {
+              "pmid": "36070536",
+              "pmcid": null,
+              "title": "Hip Imaging in Children With Cerebral Palsy: Estimation and Intrapatient Comparison of Patient-Specific Radiation Doses of Low-Dose CT and Radiography",
+              "journal": "Investigative radiology",
+              "pubdate": "2023 Mar 1",
+              "year": "2023",
+              "authors": [
+                "Nosrati R",
+                "Zhang D",
+                "Callahan MJ",
+                "Shore BJ",
+                "Tsai A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1097/RLI.0000000000000920",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36070536/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "37146592",
+              "pmcid": "PMC10773967",
+              "title": "NCIRF: an organ dose calculator for patients undergoing radiography and fluoroscopy",
+              "journal": "Biomedical physics & engineering express",
+              "pubdate": "2023 May 23",
+              "year": "2023",
+              "authors": [
+                "Lee C",
+                "Yeom YS",
+                "Shin J",
+                "Streitmatter SW",
+                "Kitahara CM"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/2057-1976/acd2de",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37146592/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10773967/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ncinm",
+      "tool": "NCINM",
+      "modality": "Nuclear medicine dosimetry",
+      "summary": "Nuclear medicine publications are tracked with NCINM-specific terms combined with radionuclide, radiopharmaceutical, and internal dosimetry language.",
+      "queries": {
+        "pubmedTitleAbstract": "(\"NCINM\"[Title/Abstract] OR \"National Cancer Institute dosimetry system for Nuclear Medicine\"[Title/Abstract]) AND (\"nuclear medicine\"[Title/Abstract] OR radionuclide[Title/Abstract] OR radiopharmaceutical[Title/Abstract] OR \"internal dosimetry\"[Title/Abstract] OR \"organ dose\"[Title/Abstract])",
+        "pmcFullText": "(\"NCINM\"[body] OR \"National Cancer Institute dosimetry system for Nuclear Medicine\"[body]) AND (\"nuclear medicine\"[body] OR radionuclide[body] OR radiopharmaceutical[body] OR \"internal dosimetry\"[body] OR \"organ dose\"[body])"
+      },
+      "queryUrls": {
+        "pubmedTitleAbstract": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%22NCINM%22%5BTitle%2FAbstract%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+Nuclear+Medicine%22%5BTitle%2FAbstract%5D%29+AND+%28%22nuclear+medicine%22%5BTitle%2FAbstract%5D+OR+radionuclide%5BTitle%2FAbstract%5D+OR+radiopharmaceutical%5BTitle%2FAbstract%5D+OR+%22internal+dosimetry%22%5BTitle%2FAbstract%5D+OR+%22organ+dose%22%5BTitle%2FAbstract%5D%29",
+        "pmcFullText": "https://pmc.ncbi.nlm.nih.gov/search/?term=%28%22NCINM%22%5Bbody%5D+OR+%22National+Cancer+Institute+dosimetry+system+for+Nuclear+Medicine%22%5Bbody%5D%29+AND+%28%22nuclear+medicine%22%5Bbody%5D+OR+radionuclide%5Bbody%5D+OR+radiopharmaceutical%5Bbody%5D+OR+%22internal+dosimetry%22%5Bbody%5D+OR+%22organ+dose%22%5Bbody%5D%29"
+      },
+      "counts": {
+        "pubmedTitleAbstract": 2,
+        "pmcFullTextRecords": 6,
+        "pmcMappedPmids": 6,
+        "pmcWithoutPmid": 0,
+        "combinedUniquePmids": 7,
+        "displayedArticles": 7
+      },
+      "years": [
+        {
+          "year": "2026",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "41341233",
+              "pmcid": "PMC12671984",
+              "title": "Fetal Organ-level Specific Absorbed Fractions from Maternal Photon Sources Using Pregnant Female Phantoms",
+              "journal": "Radiation physics and chemistry (Oxford, England : 1993)",
+              "pubdate": "2026 Mar",
+              "year": "2026",
+              "authors": [
+                "Kwon TE",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1016/j.radphyschem.2025.113460",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/41341233/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12671984/"
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "count": 2,
+          "articles": [
+            {
+              "pmid": "38232407",
+              "pmcid": "PMC13078414",
+              "title": "Absorbed dose coefficients for pediatric differentiated thyroid cancer patients undergoing radioiodine therapy",
+              "journal": "Journal of radiological protection : official journal of the Society for Radiological Protection",
+              "pubdate": "2024 Feb 7",
+              "year": "2024",
+              "authors": [
+                "Kwon TE",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/1361-6498/ad1fdc",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38232407/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13078414/"
+            },
+            {
+              "pmid": "39036814",
+              "pmcid": "PMC11257651",
+              "title": "Enhanced Internal Dosimetry for Alimentary Tract Organs in Nuclear Medicine based on the ICRP Mesh-Type Reference Phantoms",
+              "journal": "Radiation physics and chemistry (Oxford, England : 1993)",
+              "pubdate": "2024 Nov",
+              "year": "2024",
+              "authors": [
+                "Kwon TE",
+                "Han H",
+                "Choi C",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1016/j.radphyschem.2024.112009",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39036814/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11257651/"
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "count": 2,
+          "articles": [
+            {
+              "pmid": "37196645",
+              "pmcid": "PMC13091568",
+              "title": "Absorbed dose coefficients for adult thyroid cancer patients undergoing radioiodine therapy",
+              "journal": "Journal of radiological protection : official journal of the Society for Radiological Protection",
+              "pubdate": "2023 May 25",
+              "year": "2023",
+              "authors": [
+                "Kwon TE",
+                "Pasqual E",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/1361-6498/acd648",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37196645/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13091568/"
+            },
+            {
+              "pmid": "37645915",
+              "pmcid": "PMC10462246",
+              "title": "MIB Guides: Preclinical radiopharmaceutical dosimetry",
+              "journal": "Research square",
+              "pubdate": "2023 Aug 14",
+              "year": "2023",
+              "authors": [
+                "Carter LM",
+                "Zanzonico PB"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.21203/rs.3.rs-3225362/v1",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/37645915/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10462246/"
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "36541462",
+              "pmcid": "PMC10829005",
+              "title": "Organ dose calculator for diagnostic nuclear medicine patients based on the ICRP reference voxel phantoms and biokinetic models",
+              "journal": "Biomedical physics & engineering express",
+              "pubdate": "2022 Dec 2",
+              "year": "2022",
+              "authors": [
+                "Villoing D",
+                "Kwon TE",
+                "Pasqual E",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/2057-1976/aca543",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36541462/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10829005/"
+            }
+          ]
+        },
+        {
+          "year": "2020",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "33444241",
+              "pmcid": null,
+              "title": "NCINM: organ dose calculator for patients undergoing nuclear medicine procedures",
+              "journal": "Biomedical physics & engineering express",
+              "pubdate": "2020 Jul 20",
+              "year": "2020",
+              "authors": [
+                "Villoing D",
+                "Cuthbert TA",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/2057-1976/aba41e",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33444241/",
+              "pmcUrl": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phantom",
+      "tool": "PHANTOM",
+      "modality": "Computational phantom literature",
+      "summary": "Hybrid computational phantom publications document the NCI/UF anatomical model foundation used across dose-estimation workflows.",
+      "queries": {
+        "pubmedTitleAbstract": "(\"NCI/UF\"[Title/Abstract] OR \"NCI-UF\"[Title/Abstract] OR \"National Cancer Institute/University of Florida\"[Title/Abstract] OR \"reference hybrid phantom\"[Title/Abstract] OR \"reference hybrid phantoms\"[Title/Abstract] OR (\"UF family\"[Title/Abstract] AND (phantom[Title/Abstract] OR phantoms[Title/Abstract] OR dosimetry[Title/Abstract] OR radiation[Title/Abstract])) OR ((\"hybrid computational phantom\"[Title/Abstract] OR \"hybrid computational phantoms\"[Title/Abstract]) AND (\"National Cancer Institute\"[Title/Abstract] OR \"National Cancer Institute\"[Affiliation] OR NCI[Title/Abstract] OR \"University of Florida\"[Title/Abstract] OR \"University of Florida\"[Affiliation] OR UF[Title/Abstract])))",
+        "pmcFullText": "(\"NCI/UF\"[body] OR \"NCI-UF\"[body] OR \"National Cancer Institute/University of Florida\"[body] OR \"reference hybrid phantom\"[body] OR \"reference hybrid phantoms\"[body] OR (\"UF family\"[body] AND (phantom[body] OR phantoms[body]) AND (dosimetry[body] OR radiation[body])) OR ((\"hybrid computational phantom\"[body] OR \"hybrid computational phantoms\"[body]) AND (\"National Cancer Institute\"[body] OR NCI[body] OR \"University of Florida\"[body] OR UF[body])))"
+      },
+      "queryUrls": {
+        "pubmedTitleAbstract": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%22NCI%2FUF%22%5BTitle%2FAbstract%5D+OR+%22NCI-UF%22%5BTitle%2FAbstract%5D+OR+%22National+Cancer+Institute%2FUniversity+of+Florida%22%5BTitle%2FAbstract%5D+OR+%22reference+hybrid+phantom%22%5BTitle%2FAbstract%5D+OR+%22reference+hybrid+phantoms%22%5BTitle%2FAbstract%5D+OR+%28%22UF+family%22%5BTitle%2FAbstract%5D+AND+%28phantom%5BTitle%2FAbstract%5D+OR+phantoms%5BTitle%2FAbstract%5D+OR+dosimetry%5BTitle%2FAbstract%5D+OR+radiation%5BTitle%2FAbstract%5D%29%29+OR+%28%28%22hybrid+computational+phantom%22%5BTitle%2FAbstract%5D+OR+%22hybrid+computational+phantoms%22%5BTitle%2FAbstract%5D%29+AND+%28%22National+Cancer+Institute%22%5BTitle%2FAbstract%5D+OR+%22National+Cancer+Institute%22%5BAffiliation%5D+OR+NCI%5BTitle%2FAbstract%5D+OR+%22University+of+Florida%22%5BTitle%2FAbstract%5D+OR+%22University+of+Florida%22%5BAffiliation%5D+OR+UF%5BTitle%2FAbstract%5D%29%29%29",
+        "pmcFullText": "https://pmc.ncbi.nlm.nih.gov/search/?term=%28%22NCI%2FUF%22%5Bbody%5D+OR+%22NCI-UF%22%5Bbody%5D+OR+%22National+Cancer+Institute%2FUniversity+of+Florida%22%5Bbody%5D+OR+%22reference+hybrid+phantom%22%5Bbody%5D+OR+%22reference+hybrid+phantoms%22%5Bbody%5D+OR+%28%22UF+family%22%5Bbody%5D+AND+%28phantom%5Bbody%5D+OR+phantoms%5Bbody%5D%29+AND+%28dosimetry%5Bbody%5D+OR+radiation%5Bbody%5D%29%29+OR+%28%28%22hybrid+computational+phantom%22%5Bbody%5D+OR+%22hybrid+computational+phantoms%22%5Bbody%5D%29+AND+%28%22National+Cancer+Institute%22%5Bbody%5D+OR+NCI%5Bbody%5D+OR+%22University+of+Florida%22%5Bbody%5D+OR+UF%5Bbody%5D%29%29%29"
+      },
+      "counts": {
+        "pubmedTitleAbstract": 28,
+        "pmcFullTextRecords": 58,
+        "pmcMappedPmids": 58,
+        "pmcWithoutPmid": 0,
+        "combinedUniquePmids": 61,
+        "displayedArticles": 61
+      },
+      "years": [
+        {
+          "year": "2025",
+          "count": 3,
+          "articles": [
+            {
+              "pmid": "40227719",
+              "pmcid": "PMC11997853",
+              "title": "Projected Lifetime Cancer Risks From Current Computed Tomography Imaging",
+              "journal": "JAMA internal medicine",
+              "pubdate": "2025 Jun 1",
+              "year": "2025",
+              "authors": [
+                "Smith-Bindman R",
+                "Chu PW",
+                "Azman Firdaus H",
+                "Stewart C",
+                "Malekhedayat M",
+                "Alber S"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1001/jamainternmed.2025.0505",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40227719/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11997853/"
+            },
+            {
+              "pmid": "40526117",
+              "pmcid": null,
+              "title": "Radiation dose estimation of pediatric upper extremity radiographs",
+              "journal": "Pediatric radiology",
+              "pubdate": "2025 Jul",
+              "year": "2025",
+              "authors": [
+                "Beaulieu D",
+                "Lee C",
+                "Kim DS",
+                "Ecklund K",
+                "Zhang D"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00247-025-06286-3",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/40526117/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "39689286",
+              "pmcid": "PMC11801243",
+              "title": "Representative Organ Doses from Computed Tomography (CT) Exams from a Large International Registry",
+              "journal": "Radiation research",
+              "pubdate": "2025 Jan 1",
+              "year": "2025",
+              "authors": [
+                "Chu PW",
+                "Stewart C",
+                "Kofler C",
+                "Mahendra M",
+                "Wang Y",
+                "Chu CA"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1667/RADE-24-00178.1",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/39689286/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11801243/"
+            }
+          ]
+        },
+        {
+          "year": "2024",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "38150580",
+              "pmcid": "PMC10860449",
+              "title": "Development and validation of the low-cost pregnant female physical phantom for fetal dosimetry in MV photon radiotherapy",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2024 Feb",
+              "year": "2024",
+              "authors": [
+                "Kopačin V",
+                "Brkić H",
+                "Ivković A",
+                "Kasabašić M",
+                "Knežević Ž",
+                "Majer M"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/acm2.14240",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/38150580/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10860449/"
+            }
+          ]
+        },
+        {
+          "year": "2023",
+          "count": 2,
+          "articles": [
+            {
+              "pmid": "36595234",
+              "pmcid": "PMC10624254",
+              "title": "A high-resolution pediatric female whole-body numerical model with comparison to a male model",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2023 Jan 13",
+              "year": "2023",
+              "authors": [
+                "Ntolkeras G",
+                "Jeong H",
+                "Zöllei L",
+                "Dmytriw AA",
+                "Purvaziri A",
+                "Lev MH"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6560/aca950",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36595234/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10624254/"
+            },
+            {
+              "pmid": "36922419",
+              "pmcid": "PMC10359359",
+              "title": "Dose length product to effective dose coefficients in children",
+              "journal": "Pediatric radiology",
+              "pubdate": "2023 Jul",
+              "year": "2023",
+              "authors": [
+                "Chu PW",
+                "Kofler C",
+                "Mahendra M",
+                "Wang Y",
+                "Chu CA",
+                "Stewart C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00247-023-05638-1",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36922419/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10359359/"
+            }
+          ]
+        },
+        {
+          "year": "2022",
+          "count": 3,
+          "articles": [
+            {
+              "pmid": "34902159",
+              "pmcid": "PMC8828666",
+              "title": "A GPU-accelerated framework for individualized estimation of organ doses in digital tomosynthesis",
+              "journal": "Medical physics",
+              "pubdate": "2022 Feb",
+              "year": "2022",
+              "authors": [
+                "Sharma S",
+                "Kapadia A",
+                "Brown J",
+                "Segars WP",
+                "Bolch W",
+                "Samei E"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/mp.15400",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34902159/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8828666/"
+            },
+            {
+              "pmid": "36259318",
+              "pmcid": "PMC9784366",
+              "title": "Development of a computational pregnant female phantom and calculation of fetal dose during a photon breast radiotherapy",
+              "journal": "Radiology and oncology",
+              "pubdate": "2022 Dec 1",
+              "year": "2022",
+              "authors": [
+                "Kopacin V",
+                "Kasabasic M",
+                "Faj D",
+                "Hubert MS",
+                "Galic S",
+                "Ivkovic A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.2478/raon-2022-0039",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/36259318/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9784366/"
+            },
+            {
+              "pmid": "35107724",
+              "pmcid": "PMC9596345",
+              "title": "Quantifying cancer risk from exposures to medical imaging in the Risk of Pediatric and Adolescent Cancer Associated with Medical Imaging (RIC) Study: research methods and cohort profile",
+              "journal": "Cancer causes & control : CCC",
+              "pubdate": "2022 May",
+              "year": "2022",
+              "authors": [
+                "Kwan ML",
+                "Miglioretti DL",
+                "Bowles EJA",
+                "Weinmann S",
+                "Greenlee RT",
+                "Stout NK"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1007/s10552-022-01556-z",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/35107724/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9596345/"
+            }
+          ]
+        },
+        {
+          "year": "2021",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "33439896",
+              "pmcid": "PMC7806143",
+              "title": "Development, validation, and pilot MRI safety study of a high-resolution, open source, whole body pediatric numerical simulation model",
+              "journal": "PloS one",
+              "pubdate": "2021",
+              "year": "2021",
+              "authors": [
+                "Jeong H",
+                "Ntolkeras G",
+                "Alhilani M",
+                "Atefi SR",
+                "Zöllei L",
+                "Fujimoto K"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1371/journal.pone.0241682",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33439896/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7806143/"
+            }
+          ]
+        },
+        {
+          "year": "2020",
+          "count": 3,
+          "articles": [
+            {
+              "pmid": "34584772",
+              "pmcid": "PMC8475741",
+              "title": "Development of an age-scalable 3D computational phantom in DICOM standard for late effects studies of childhood cancer survivors",
+              "journal": "Biomedical physics & engineering express",
+              "pubdate": "2020 Nov",
+              "year": "2020",
+              "authors": [
+                "Gupta AC",
+                "Shrestha S",
+                "Owens CA",
+                "Smith SA",
+                "Qiao Y",
+                "Weathers RE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/2057-1976/ab97a3",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/34584772/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8475741/"
+            },
+            {
+              "pmid": "31679045",
+              "pmcid": "PMC10757349",
+              "title": "Dose coefficients of percentile-specific computational phantoms for photon external exposures",
+              "journal": "Radiation and environmental biophysics",
+              "pubdate": "2020 Mar",
+              "year": "2020",
+              "authors": [
+                "Yeom YS",
+                "Han H",
+                "Choi C",
+                "Shin B",
+                "Kim CH",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00411-019-00818-w",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/31679045/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10757349/"
+            },
+            {
+              "pmid": "33073922",
+              "pmcid": "PMC7701110",
+              "title": "Fabrication of a pediatric torso phantom with multiple tissues represented using a dual nozzle thermoplastic 3D printer",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2020 Nov",
+              "year": "2020",
+              "authors": [
+                "Mille MM",
+                "Griffin KT",
+                "Maass-Moreno R",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1002/acm2.13064",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/33073922/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7701110/"
+            }
+          ]
+        },
+        {
+          "year": "2019",
+          "count": 3,
+          "articles": [
+            {
+              "pmid": "31609677",
+              "pmcid": "PMC13086021",
+              "title": "A Scalable Database of Organ Doses for Common Diagnostic Fluoroscopy Procedures of Children: Procedures of Historical Practice for Use in Radiation Epidemiology Studies",
+              "journal": "Radiation research",
+              "pubdate": "2019 Dec",
+              "year": "2019",
+              "authors": [
+                "Marshall EL",
+                "Rajderkar D",
+                "Brown JL",
+                "Stepusin EJ",
+                "Borrego D",
+                "Duncan J"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1667/RR15445.1",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/31609677/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13086021/"
+            },
+            {
+              "pmid": "30740582",
+              "pmcid": "PMC6362464",
+              "title": "Advances in Computational Human Phantoms and Their Applications in Biomedical Engineering - A Topical Review",
+              "journal": "IEEE transactions on radiation and plasma medical sciences",
+              "pubdate": "2019 Jan",
+              "year": "2019",
+              "authors": [
+                "Kainz W",
+                "Neufeld E",
+                "Bolch WE",
+                "Graff CG",
+                "Kim CH",
+                "Kuster N"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1109/TRPMS.2018.2883437",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30740582/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6362464/"
+            },
+            {
+              "pmid": "30779693",
+              "pmcid": "PMC8666129",
+              "title": "Dosimetric Impact of a New Computational Voxel Phantom Series for the Japanese Atomic Bomb Survivors: Children and Adults",
+              "journal": "Radiation research",
+              "pubdate": "2019 Apr",
+              "year": "2019",
+              "authors": [
+                "Griffin K",
+                "Paulbeck C",
+                "Bolch W",
+                "Cullings H",
+                "Egbert S",
+                "Funamoto S"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1667/RR15267.1",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30779693/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8666129/"
+            }
+          ]
+        },
+        {
+          "year": "2018",
+          "count": 9,
+          "articles": [
+            {
+              "pmid": "29465419",
+              "pmcid": "PMC6376487",
+              "title": "Assessment of PCXMC for patients with different body size in chest and abdominal x ray examinations: a Monte Carlo simulation study",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2018 Mar 21",
+              "year": "2018",
+              "authors": [
+                "Borrego D",
+                "Lowe EM",
+                "Kitahara CM",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/1361-6560/aab13e",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29465419/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6376487/"
+            },
+            {
+              "pmid": "30375363",
+              "pmcid": "PMC6376489",
+              "title": "Body-weight dependent dose coefficients for adults exposed to idealised external photon fields",
+              "journal": "Journal of radiological protection : official journal of the Society for Radiological Protection",
+              "pubdate": "2018 Dec",
+              "year": "2018",
+              "authors": [
+                "Chang LA",
+                "Borrego D",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/1361-6498/aae66e",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30375363/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6376489/"
+            },
+            {
+              "pmid": "29663370",
+              "pmcid": "PMC5987821",
+              "title": "Deformable torso phantoms of Chinese adults for personalized anatomy modelling",
+              "journal": "Journal of anatomy",
+              "pubdate": "2018 Jul",
+              "year": "2018",
+              "authors": [
+                "Wang H",
+                "Sun X",
+                "Wu T",
+                "Li C",
+                "Chen Z",
+                "Liao M"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1111/joa.12815",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29663370/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5987821/"
+            },
+            {
+              "pmid": "29405126",
+              "pmcid": "PMC6385893",
+              "title": "Evaluation of the UF/NCI hybrid computational phantoms for use in organ dosimetry of pediatric patients undergoing fluoroscopically guided cardiac procedures",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2018 Mar 1",
+              "year": "2018",
+              "authors": [
+                "Marshall EL",
+                "Borrego D",
+                "Tran T",
+                "Fudge JC",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6560/aaad1d",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29405126/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6385893/"
+            },
+            {
+              "pmid": "29546846",
+              "pmcid": "PMC6171119",
+              "title": "Individualized adjustments to reference phantom internal organ dosimetry-scaling factors given knowledge of patient external anatomy",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2018 Apr 13",
+              "year": "2018",
+              "authors": [
+                "Wayson MB",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6560/aab72f",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29546846/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6171119/"
+            },
+            {
+              "pmid": "29546844",
+              "pmcid": "PMC6169782",
+              "title": "Individualized adjustments to reference phantom internal organ dosimetry-scaling factors given knowledge of patient internal anatomy",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2018 Apr 13",
+              "year": "2018",
+              "authors": [
+                "Wayson MB",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6560/aab730",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29546844/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6169782/"
+            },
+            {
+              "pmid": "29896882",
+              "pmcid": "PMC6292782",
+              "title": "Organ doses in pediatric patients undergoing cardiac-centered fluoroscopically guided interventions: Comparison of three methods for computational phantom alignment",
+              "journal": "Medical physics",
+              "pubdate": "2018 Jun 13",
+              "year": "2018",
+              "authors": [
+                "Marshall EL",
+                "Borrego D",
+                "Fudge JC",
+                "Rajderkar D",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/mp.13044",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29896882/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6292782/"
+            },
+            {
+              "pmid": "30022768",
+              "pmcid": "PMC6398606",
+              "title": "Re-evaluation of pediatric (18)F-FDG dosimetry: Cristy-Eckerman versus UF/NCI hybrid computational phantoms",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2018 Aug 14",
+              "year": "2018",
+              "authors": [
+                "Khamwan K",
+                "O'Reilly SE",
+                "Plyku D",
+                "Goodkind A",
+                "Josefsson A",
+                "Cao X"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6560/aad47a",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/30022768/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6398606/"
+            },
+            {
+              "pmid": "29999494",
+              "pmcid": "PMC6343858",
+              "title": "Suggested reference values for regional blood volumes in children and adolescents",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2018 Aug 6",
+              "year": "2018",
+              "authors": [
+                "Wayson MB",
+                "Leggett RW",
+                "Jokisch DW",
+                "Lee C",
+                "Schwarz BC",
+                "Godwin WJ"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/1361-6560/aad313",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/29999494/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6343858/"
+            }
+          ]
+        },
+        {
+          "year": "2017",
+          "count": 2,
+          "articles": [
+            {
+              "pmid": "28636805",
+              "pmcid": null,
+              "title": "A hybrid phantom system for patient skin and organ dosimetry in fluoroscopically guided interventions",
+              "journal": "Medical physics",
+              "pubdate": "2017 Sep",
+              "year": "2017",
+              "authors": [
+                "Borrego D",
+                "Siragusa DA",
+                "Balter S",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1002/mp.12419",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28636805/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "27664429",
+              "pmcid": "PMC6257014",
+              "title": "Conversion Coefficients for Proton Beams using Standing and Sitting Male Hybrid Computational Phantom Calculated in Idealized Irradiation Geometries",
+              "journal": "Radiation protection dosimetry",
+              "pubdate": "2017 Jun 1",
+              "year": "2017",
+              "authors": [
+                "Alves MC",
+                "Santos WS",
+                "Lee C",
+                "Bolch WE",
+                "Hunt JG",
+                "Júnior ABC"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1093/rpd/ncw271",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27664429/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6257014/"
+            }
+          ]
+        },
+        {
+          "year": "2016",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "26930549",
+              "pmcid": "PMC5736793",
+              "title": "A risk index for pediatric patients undergoing diagnostic imaging with (99m)Tc-dimercaptosuccinic acid that accounts for body habitus",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2016 Mar 21",
+              "year": "2016",
+              "authors": [
+                "O'Reilly SE",
+                "Plyku D",
+                "Sgouros G",
+                "Fahey FH",
+                "Ted Treves S",
+                "Frey EC"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/0031-9155/61/6/2319",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26930549/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5736793/"
+            },
+            {
+              "pmid": "27897136",
+              "pmcid": "PMC6385869",
+              "title": "An image-based skeletal dosimetry model for the ICRP reference adult female-internal electron sources",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2016 Dec 21",
+              "year": "2016",
+              "authors": [
+                "O'Reilly SE",
+                "DeWeese LS",
+                "Maynard MR",
+                "Rajon DA",
+                "Wayson MB",
+                "Marshall EL"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/1361-6560/61/24/8794",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27897136/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6385869/"
+            },
+            {
+              "pmid": "26910030",
+              "pmcid": null,
+              "title": "Secondary Neutron Doses to Pediatric Patients During Intracranial Proton Therapy: Monte Carlo Simulation of the Neutron Energy Spectrum and its Organ Doses",
+              "journal": "Health physics",
+              "pubdate": "2016 Apr",
+              "year": "2016",
+              "authors": [
+                "Matsumoto S",
+                "Koba Y",
+                "Kohno R",
+                "Lee C",
+                "Bolch WE",
+                "Kai M"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1097/HP.0000000000000461",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26910030/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "27798478",
+              "pmcid": "PMC5704926",
+              "title": "Use of Transportable Radiation Detection Instruments to Assess Internal Contamination from Intakes of Radionuclides Part II: Calibration Factors and ICAT Computer Program",
+              "journal": "Health physics",
+              "pubdate": "2016 Dec",
+              "year": "2016",
+              "authors": [
+                "Anigstein R",
+                "Olsher RH",
+                "Loomis DA",
+                "Ansari A"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1097/HP.0000000000000572",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/27798478/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5704926/"
+            }
+          ]
+        },
+        {
+          "year": "2015",
+          "count": 3,
+          "articles": [
+            {
+              "pmid": "26397332",
+              "pmcid": "PMC5384467",
+              "title": "Calculation of Organ Doses for a Large Number of Patients Undergoing CT Examinations",
+              "journal": "AJR. American journal of roentgenology",
+              "pubdate": "2015 Oct",
+              "year": "2015",
+              "authors": [
+                "Bahadori A",
+                "Miglioretti D",
+                "Kruger R",
+                "Flynn M",
+                "Weinmann S",
+                "Smith-Bindman R"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.2214/AJR.14.14135",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/26397332/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5384467/"
+            },
+            {
+              "pmid": "25145966",
+              "pmcid": "PMC4336853",
+              "title": "Patient-specific dosimetry using pretherapy [¹²⁴I]m-iodobenzylguanidine ([¹²⁴I]mIBG) dynamic PET/CT imaging before [¹³¹I]mIBG targeted radionuclide therapy for neuroblastoma",
+              "journal": "Molecular imaging and biology",
+              "pubdate": "2015 Apr",
+              "year": "2015",
+              "authors": [
+                "Huang SY",
+                "Bolch WE",
+                "Lee C",
+                "Van Brocklin HF",
+                "Pampaloni MH",
+                "Hawkins RA"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s11307-014-0783-7",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25145966/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4336853/"
+            },
+            {
+              "pmid": "25715852",
+              "pmcid": "PMC4422070",
+              "title": "Reconstruction of organ dose for external radiotherapy patients in retrospective epidemiologic studies",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2015 Mar 21",
+              "year": "2015",
+              "authors": [
+                "Lee C",
+                "Jung JW",
+                "Pelletier C",
+                "Pyakuryal A",
+                "Lamart S",
+                "Kim JO"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/60/6/2309",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25715852/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4422070/"
+            }
+          ]
+        },
+        {
+          "year": "2014",
+          "count": 6,
+          "articles": [
+            {
+              "pmid": "25144730",
+              "pmcid": "PMC4169876",
+              "title": "An exponential growth of computational phantom research in radiation protection, imaging, and radiotherapy: a review of the fifty-year history",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2014 Sep 21",
+              "year": "2014",
+              "authors": [
+                "Xu XG"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/0031-9155/59/18/R233",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25144730/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4169876/"
+            },
+            {
+              "pmid": "25162420",
+              "pmcid": "PMC4147674",
+              "title": "Nuclear medicine practices in the 1950s through the mid-1970s and occupational radiation doses to technologists from diagnostic radioisotope procedures",
+              "journal": "Health physics",
+              "pubdate": "2014 Oct",
+              "year": "2014",
+              "authors": [
+                "Drozdovitch V",
+                "Brill AB",
+                "Mettler FA Jr",
+                "Beckner WM",
+                "Goldsmith SJ",
+                "Gross MD"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1097/HP.0000000000000107",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25162420/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4147674/"
+            },
+            {
+              "pmid": "25427139",
+              "pmcid": null,
+              "title": "Organ and effective dose conversion coefficients for a sitting female hybrid computational phantom exposed to monoenergetic protons in idealized irradiation geometries",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2014 Dec 21",
+              "year": "2014",
+              "authors": [
+                "Alves MC",
+                "Santos WS",
+                "Lee C",
+                "Bolch WE",
+                "Hunt JG",
+                "Carvalho Júnior AB"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/59/24/7957",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25427139/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "25493528",
+              "pmcid": "PMC5711131",
+              "title": "Super-size me: adipose tissue-equivalent additions for anthropomorphic phantoms",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2014 Nov 8",
+              "year": "2014",
+              "authors": [
+                "Fisher RF",
+                "Hintenlang DE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1120/jacmp.v15i6.5007",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25493528/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5711131/"
+            },
+            {
+              "pmid": "25030913",
+              "pmcid": null,
+              "title": "The UF Family of hybrid phantoms of the pregnant female for computational radiation dosimetry",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2014 Aug 7",
+              "year": "2014",
+              "authors": [
+                "Maynard MR",
+                "Long NS",
+                "Moawad NS",
+                "Shifrin RY",
+                "Geyer AM",
+                "Fong G"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/0031-9155/59/15/4325",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25030913/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "25144322",
+              "pmcid": "PMC6686860",
+              "title": "The UF/NCI family of hybrid computational phantoms representing the current US population of male and female children, adolescents, and adults--application to CT dosimetry",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2014 Sep 21",
+              "year": "2014",
+              "authors": [
+                "Geyer AM",
+                "O'Reilly S",
+                "Lee C",
+                "Long DJ",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/59/18/5225",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/25144322/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6686860/"
+            }
+          ]
+        },
+        {
+          "year": "2013",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "23429160",
+              "pmcid": "PMC3635173",
+              "title": "Assessing organ doses from paediatric CT scans--a novel approach for an epidemiology study (the EPI-CT study)",
+              "journal": "International journal of environmental research and public health",
+              "pubdate": "2013 Feb 18",
+              "year": "2013",
+              "authors": [
+                "Thierry-Chef I",
+                "Dabin J",
+                "Friberg EG",
+                "Hermen J",
+                "Istad TS",
+                "Jahnen A"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.3390/ijerph10020717",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23429160/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3635173/"
+            },
+            {
+              "pmid": "23391692",
+              "pmcid": "PMC3878984",
+              "title": "Computational lymphatic node models in pediatric and adult hybrid phantoms for radiation dosimetry",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2013 Mar 7",
+              "year": "2013",
+              "authors": [
+                "Lee C",
+                "Lamart S",
+                "Moroz BE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/58/5/N59",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23391692/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3878984/"
+            },
+            {
+              "pmid": "23298124",
+              "pmcid": "PMC3537704",
+              "title": "Monte Carlo simulations of adult and pediatric computed tomography exams: validation studies of organ doses with physical phantoms",
+              "journal": "Medical physics",
+              "pubdate": "2013 Jan",
+              "year": "2013",
+              "authors": [
+                "Long DJ",
+                "Lee C",
+                "Tien C",
+                "Fisher R",
+                "Hoerner MR",
+                "Hintenlang D"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1118/1.4771934",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/23298124/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3537704/"
+            },
+            {
+              "pmid": "24301086",
+              "pmcid": "PMC4160803",
+              "title": "Prediction of the location and size of the stomach using patient characteristics for retrospective radiation dose estimation following radiotherapy",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2013 Dec 21",
+              "year": "2013",
+              "authors": [
+                "Lamart S",
+                "Imran R",
+                "Simon SL",
+                "Doi K",
+                "Morton LM",
+                "Curtis RE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/58/24/8739",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/24301086/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4160803/"
+            }
+          ]
+        },
+        {
+          "year": "2012",
+          "count": 7,
+          "articles": [
+            {
+              "pmid": "22217682",
+              "pmcid": "PMC13037803",
+              "title": "Comparison of whole-body phantom designs to estimate organ equivalent neutron doses for secondary cancer risk assessment in proton therapy",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2012 Jan 21",
+              "year": "2012",
+              "authors": [
+                "Moteabbed M",
+                "Geyer A",
+                "Drenkhahn R",
+                "Bolch WE",
+                "Paganetti H"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/0031-9155/57/2/499",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/22217682/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13037803/"
+            },
+            {
+              "pmid": "22420020",
+              "pmcid": "PMC3909989",
+              "title": "Guidance on the use of handheld survey meters for radiological triage: time-dependent detector count rates corresponding to 50, 250, and 500 mSV effective dose for adult males and adult females",
+              "journal": "Health physics",
+              "pubdate": "2012 Mar",
+              "year": "2012",
+              "authors": [
+                "Bolch WE",
+                "Hurtado JL",
+                "Lee C",
+                "Manger R",
+                "Burgett E",
+                "Hertel N"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1097/hp.0b013e3182351660",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/22420020/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3909989/"
+            },
+            {
+              "pmid": "22315022",
+              "pmcid": "PMC3859249",
+              "title": "Hybrid computational phantoms representing the reference adult male and adult female: construction and applications for retrospective dosimetry",
+              "journal": "Health physics",
+              "pubdate": "2012 Mar",
+              "year": "2012",
+              "authors": [
+                "Hurtado JL",
+                "Lee C",
+                "Lodwick D",
+                "Goede T",
+                "Williams JL",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1097/HP.0b013e318235163f",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/22315022/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3859249/"
+            },
+            {
+              "pmid": "22354044",
+              "pmcid": "PMC3879003",
+              "title": "Internal photon and electron dosimetry of the newborn patient--a hybrid computational phantom study",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2012 Mar 7",
+              "year": "2012",
+              "authors": [
+                "Wayson M",
+                "Lee C",
+                "Sgouros G",
+                "Treves ST",
+                "Frey E",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/57/5/1433",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/22354044/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3879003/"
+            },
+            {
+              "pmid": "22482634",
+              "pmcid": "PMC3326072",
+              "title": "Organ doses for reference pediatric and adolescent patients undergoing computed tomography estimated by Monte Carlo simulation",
+              "journal": "Medical physics",
+              "pubdate": "2012 Apr",
+              "year": "2012",
+              "authors": [
+                "Lee C",
+                "Kim KP",
+                "Long DJ",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1118/1.3693052",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/22482634/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3326072/"
+            },
+            {
+              "pmid": "28519533",
+              "pmcid": null,
+              "title": "SU-E-I-40: Effective Dose Normalized to Dose Length Product for Pediatric and Adult Reference Phantoms in Computed Tomography Examinations",
+              "journal": "Medical physics",
+              "pubdate": "2012 Jun",
+              "year": "2012",
+              "authors": [
+                "Lamart S",
+                "Kim K",
+                "Bolch W",
+                "Lee C"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1118/1.4734755",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28519533/",
+              "pmcUrl": null
+            },
+            {
+              "pmid": "28519539",
+              "pmcid": "PMC8015879",
+              "title": "SU-E-I-44: The UF/NCI Family of Hybrid Computational Phantoms Representing the Current US Population of Male and Female Children and Adolescents Applications to CT Organ Dosimetry",
+              "journal": "Medical physics",
+              "pubdate": "2012 Jun",
+              "year": "2012",
+              "authors": [
+                "Geyer A",
+                "O'Reilly S",
+                "Lee C",
+                "Long D",
+                "Bolch W"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1118/1.4734759",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/28519539/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8015879/"
+            }
+          ]
+        },
+        {
+          "year": "2011",
+          "count": 4,
+          "articles": [
+            {
+              "pmid": "21427487",
+              "pmcid": "PMC3942888",
+              "title": "An image-based skeletal dosimetry model for the ICRP reference adult male--internal electron sources",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2011 Apr 21",
+              "year": "2011",
+              "authors": [
+                "Hough M",
+                "Johnson P",
+                "Rajon D",
+                "Jokisch D",
+                "Lee C",
+                "Bolch W"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/56/8/001",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/21427487/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3942888/"
+            },
+            {
+              "pmid": "21992367",
+              "pmcid": "PMC3195372",
+              "title": "Skin dose mapping for fluoroscopically guided interventions",
+              "journal": "Medical physics",
+              "pubdate": "2011 Oct",
+              "year": "2011",
+              "authors": [
+                "Johnson PB",
+                "Borrego D",
+                "Balter S",
+                "Johnson K",
+                "Siragusa D",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1118/1.3633935",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/21992367/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3195372/"
+            },
+            {
+              "pmid": "21452738",
+              "pmcid": "PMC3045414",
+              "title": "The impact of anthropometric patient-phantom matching on organ dose: a hybrid phantom study for fluoroscopy guided interventions",
+              "journal": "Medical physics",
+              "pubdate": "2011 Feb",
+              "year": "2011",
+              "authors": [
+                "Johnson PB",
+                "Geyer A",
+                "Borrego D",
+                "Ficarrotta K",
+                "Johnson K",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1118/1.3544353",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/21452738/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3045414/"
+            },
+            {
+              "pmid": "21765203",
+              "pmcid": "PMC6171342",
+              "title": "The UF family of hybrid phantoms of the developing human fetus for computational radiation dosimetry",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2011 Aug 7",
+              "year": "2011",
+              "authors": [
+                "Maynard MR",
+                "Geyer JW",
+                "Aris JP",
+                "Shifrin RY",
+                "Bolch W"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1088/0031-9155/56/15/014",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/21765203/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6171342/"
+            }
+          ]
+        },
+        {
+          "year": "2010",
+          "count": 3,
+          "articles": [
+            {
+              "pmid": "20592702",
+              "pmcid": "PMC5719945",
+              "title": "An organ and effective dose study of XVI and OBI cone-beam CT systems",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2010 Apr 17",
+              "year": "2010",
+              "authors": [
+                "Hyer DE",
+                "Serago CF",
+                "Kim S",
+                "Li JG",
+                "Hintenlang DE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1120/jacmp.v11i2.3183",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/20592702/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5719945/"
+            },
+            {
+              "pmid": "20039051",
+              "pmcid": "PMC2855752",
+              "title": "Hybrid computational phantoms for medical dose reconstruction",
+              "journal": "Radiation and environmental biophysics",
+              "pubdate": "2010 May",
+              "year": "2010",
+              "authors": [
+                "Bolch W",
+                "Lee C",
+                "Wayson M",
+                "Johnson P"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1007/s00411-009-0260-x",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/20039051/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2855752/"
+            },
+            {
+              "pmid": "20019401",
+              "pmcid": "PMC2800036",
+              "title": "The UF family of reference hybrid phantoms for computational radiation dosimetry",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2010 Jan 21",
+              "year": "2010",
+              "authors": [
+                "Lee C",
+                "Lodwick D",
+                "Hurtado J",
+                "Pafundi D",
+                "Williams JL",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/55/2/002",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/20019401/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2800036/"
+            }
+          ]
+        },
+        {
+          "year": "2009",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "19692982",
+              "pmcid": "PMC5720556",
+              "title": "Construction of anthropomorphic phantoms for use in dosimetry studies",
+              "journal": "Journal of applied clinical medical physics",
+              "pubdate": "2009 Aug 6",
+              "year": "2009",
+              "authors": [
+                "Winslow JF",
+                "Hyer DE",
+                "Fisher RF",
+                "Tien CJ",
+                "Hintenlang DE"
+              ],
+              "nciTeamAuthored": false,
+              "doi": "10.1120/jacmp.v10i3.2986",
+              "sources": [
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/19692982/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5720556/"
+            }
+          ]
+        },
+        {
+          "year": "2008",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "18649470",
+              "pmcid": "PMC2809721",
+              "title": "Hybrid computational phantoms of the 15-year male and female adolescent: applications to CT organ dosimetry for patients of variable morphometry",
+              "journal": "Medical physics",
+              "pubdate": "2008 Jun",
+              "year": "2008",
+              "authors": [
+                "Lee C",
+                "Lodwick D",
+                "Williams JL",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1118/1.2912178",
+              "sources": [
+                "PubMed title/abstract",
+                "PMC full text"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/18649470/",
+              "pmcUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2809721/"
+            }
+          ]
+        },
+        {
+          "year": "2007",
+          "count": 1,
+          "articles": [
+            {
+              "pmid": "17664546",
+              "pmcid": null,
+              "title": "Hybrid computational phantoms of the male and female newborn patient: NURBS-based whole-body models",
+              "journal": "Physics in medicine and biology",
+              "pubdate": "2007 Jun 21",
+              "year": "2007",
+              "authors": [
+                "Lee C",
+                "Lodwick D",
+                "Hasenauer D",
+                "Williams JL",
+                "Lee C",
+                "Bolch WE"
+              ],
+              "nciTeamAuthored": true,
+              "doi": "10.1088/0031-9155/52/12/001",
+              "sources": [
+                "PubMed title/abstract"
+              ],
+              "pubmedUrl": "https://pubmed.ncbi.nlm.nih.gov/17664546/",
+              "pmcUrl": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
